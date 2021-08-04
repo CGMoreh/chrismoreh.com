@@ -33,11 +33,11 @@ links:
 - icon: doi
   icon_pack: ai
   name: DOI
-  url: https://link to online article
+  url: https://link_to_article
 - icon: github
   icon_pack: fab
   name: Data
-  url: https://link to github repository for data
+  url: https://link_to_github
 
 image:
   caption: ""
