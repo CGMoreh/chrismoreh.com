@@ -1,0 +1,344 @@
+
+/* Whole document: */
+
+body {
+  margin-top: 100px !important;
+}
+
+.navbar {
+  min-height: 100px !important;
+}
+
+/* Make mobile navbar skinnier */
+
+  @media screen and (max-width: 768px) {
+    body {
+      margin-top: 70px !important;
+    }
+     .navbar {
+      min-height: 70px !important;
+    }
+  }
+
+.navbar {
+    background-color: #fcfcfc33;
+    box-shadow: 0 0 10px rgba(252, 252, 252, 0.76);
+    background-image: linear-gradient(to bottom, #fcfcfc, #fcfcfc, #fcfcfc, #fcfcfced, #fcfcfcba, #fcfcfc33) !important;  
+}
+
+/*make drop down menu more opaque on mobile */
+
+@media (max-width: 991.98px) { 
+  .navbar-collapse {
+    background-color: #f7f7f7d9 !important;
+  }
+}
+
+/*----NAV LINK HOVER ANIMATION -----*/
+
+.nav-link:hover {
+  color: rgba(150, 7, 7, 1) !important;
+}
+
+
+/* stroke */
+
+a.nav-link,
+a.nav-link:after,
+a.nav-link:before {
+  transition: all .5s;
+}
+
+a.nav-link {
+  position: relative;
+}
+
+a.nav-link:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.'; /* make invisible, dot beneath links */
+  color: transparent;
+  background: rgba(150, 7, 7, 1);
+  height: 2px;
+}
+
+a.nav-link:hover:after {
+  width: 70%;
+}
+
+/*----------------------------------*/
+
+
+
+/*************************************************
+ *  Navigation bar
+ **************************************************/
+
+
+
+.dropdown-menu,
+nav#navbar-main li.nav-item {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+
+
+/*************************************************
+ *  Footer
+ **************************************************/
+
+footer {
+  margin: 2rem 0 0;
+  padding: 3px 0;
+  width: 100%;
+}
+
+footer p {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+site-footer,
+footer a.back-to-top i {
+  color: rgba(10,10,20,0.9);
+}
+
+.dark site-footer,
+.dark footer a.back-to-top i,
+.dark .docs .body-footer {
+  color: rgba(255,255,255,0.54);
+}
+
+
+/*************************************************
+ *  About widget
+ **************************************************/
+
+#profile {
+  text-align: center;
+  padding: 30px 10px;
+  position: relative;
+}
+
+.avatar {
+  width: 270px;
+  height: 290px;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+// Use smaller avatar size in About widget on small devices.
+@include media-breakpoint-down(sm) {
+  .wg-about .avatar {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+.avatar-circle {
+  border-radius: 30%;
+}
+
+.avatar-square {
+  border-radius: 3px;
+}
+
+.portrait-title h2 {
+  font-size: 1.4em;
+  font-weight: 300;
+  color: #000000;
+  margin: 15px 0 5px 0;
+}
+
+.portrait-title h3 {
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgba(0,0,0, 0.54);
+  margin: 5px 0 5px 0;
+}
+
+ul.network-icon {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#profile .network-icon {
+  margin-top: 20px;
+}
+
+.network-icon li {
+  margin-right: 10px;
+}
+
+.network-icon li:last-of-type {
+  margin-right: 0;
+}
+
+.network-icon li:hover {
+  transform: scale(1.2)
+}
+
+.big-icon {
+  font-size: 1.5rem;
+}
+
+ul.ul-interests li {
+  font-size: 0.9rem;
+}
+
+ul.ul-edu {
+  list-style: none;
+}
+
+ul.ul-edu li {
+  position: relative;
+  padding: 0px 15px 4px 3px;
+}
+
+ul.ul-edu li .description p {
+  margin: 0;
+}
+
+ul.ul-edu li .description p.course {
+  font-size: 0.9rem;
+}
+
+ul.ul-edu li .description p.institution {
+  font-size: 0.75rem;
+  color: rgba(0,0,0,0.6);
+}
+
+
+
+
+/*************************************************
+ *  Hero Widget
+ **************************************************/
+
+.wg-hero {
+  padding: 3em 0;
+  clear: both;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation: intro 0.3s both;
+  animation-delay: 0s;
+  animation-delay: 0.25s;
+}
+
+.hero-title {
+  font-size: 1.5rem;
+  margin-top: 2;
+  line-height: 1;
+}
+
+.hero-lead {
+  max-width: 768px;
+  font-size: 1rem;
+}
+
+.wg-hero.dark .hero-title,
+.wg-hero.dark .hero-lead,
+.wg-hero.dark .hero-cta-alt,
+.wg-hero.dark .hero-note > * {
+  color: #fff;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.5); /* Uncomment to standout on complicated backgrounds. */
+}
+
+.wg-hero.dark a:not(.wg-hero .btn) {
+  color: #fff;
+}
+
+.wg-hero .hero-lead a {
+  text-decoration: underline;
+}
+
+.wg-hero .cta-btns {
+  margin-bottom: 16px;
+}
+
+.wg-hero .btn {
+  padding: .6em 2.1em;
+}
+
+.wg-hero.dark .btn {
+  color: $sta-primary-dark;
+}
+
+a.hero-cta-alt {
+  display: inline-block;
+  position: relative;
+  transition-duration: .2s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+  font-size: 1.1rem;
+}
+
+a.hero-cta-alt:active,
+a.hero-cta-alt:focus,
+a.hero-cta-alt:hover {
+  transform: scale(1.1);
+}
+
+.wg-hero .btn-lg {
+  font-size: 1.1rem;
+}
+
+.wg-hero .hero-note {
+  font-size: 0.8rem;
+}
+
+.hero-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70%;
+  text-align: center;
+}
+
+
+
+
+/*************************************************
+ *  Button size override
+ *************************************************/
+
+.btn {
+  padding: .5rem;
+  font-size: 1rem;
+  line-height: .5;
+  border-radius: .3rem;
+}
+
+.btn-links .btn {
+  padding: 5px .5rem 5px .5rem;
+  line-height: 1;
+}
+
+.btn.btn-sm {
+  padding: 5px .4rem 5px .4rem;
+  font-size: .7rem;
+  border-radius: .2rem;
+}
+
+
+/******************
+* Dark mode buttons
+************************/
+
+
+.dark .btn-primary,
+.dark .btn.btn-primary.active {
+  color: #000000;
+}
