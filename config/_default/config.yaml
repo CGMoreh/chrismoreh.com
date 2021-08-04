@@ -65,16 +65,7 @@ taxonomies:
   author: authors
 
 markup:
-  defaultMarkdownHandler: goldmark
-  goldmark:
-    renderer:
-      unsafe: true
-  highlight:
-    codeFences: false
-  tableOfContents:
-    startLevel: 2
-    endLevel: 3
-#  _merge: deep
+  _merge: deep
 
 related:
   threshold: 80

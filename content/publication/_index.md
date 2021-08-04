@@ -1,6 +1,6 @@
 ---
 title: Publications (under construction)
-cms_exclude: false
+cms_exclude: true
 
 # View.
 #   1 = List
