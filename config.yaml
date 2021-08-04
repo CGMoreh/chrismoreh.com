@@ -53,7 +53,7 @@ outputs:
 
 imaging:
   resampleFilter: lanczos
-  quality: 75
+  quality: 95
   anchor: smart
 
 timeout: 600000
