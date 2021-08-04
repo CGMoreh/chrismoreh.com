@@ -133,7 +133,9 @@ docs_section_pager: true
 #########################################################################################
 
 # Enable in-built social sharing buttons? (true/false)
-sharing: true
+# Alternatively, it can be enabled or disabled on a per page basis using share in your page front matter.
+# To customize the social networks in the Page Sharer, edit data/page_sharer.toml.
+sharing: false
 
 # Show estimated reading time for posts? (true/false)
 reading_time: true
@@ -156,6 +158,10 @@ avatar:
 publications:
   date_format: January 2006
   citation_style: apa
+  # Link the title of the publication to the publication
+  links_title: false
+  # Link the authors of the publication to the list of publication made by this author
+  links_authors: false  
 
 # Configuration of projects pages.
 projects:

@@ -13,7 +13,7 @@ publication_types:
 # 8 = Patent (v4.2+ required)
   - "2"
 
-draft: true
+draft: true # Change this!
 featured: false
 
 authors:
@@ -24,6 +24,7 @@ publication: "*Journal Name*, Vol. X, Issue Y, pp. 1-2"
 publication_short: "*JN*"
 
 date: 1900-01-01
+show_date: false
 
 summary: "Brief summary of the publication"
 

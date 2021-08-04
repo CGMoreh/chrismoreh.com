@@ -64,8 +64,19 @@ taxonomies:
   publication_type: publication_types
   author: authors
 
+#markup:
+#  _merge: deep
+
 markup:
-  _merge: deep
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    codeFences: false
+  tableOfContents:
+    startLevel: 2
+    endLevel: 3
 
 related:
   threshold: 80
