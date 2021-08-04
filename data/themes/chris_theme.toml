@@ -1,0 +1,27 @@
+# Theme metadata
+
+# Theme based on the Hugo Academic 'minimal' theme
+name = "chris-theme"
+
+# Is theme light or dark?
+light = true
+
+# Primary
+primary = "#960707" # the color of hyperlinks
+
+# Menu
+menu_primary = "#ffffff" # the menu header; same as hyperlinks
+menu_text = "#2b2b2b" # main text in menu;
+menu_text_active = "#e9c46a"
+menu_title = "#000000"
+
+# Home sections
+background = "rgb(255, 255, 255)" # page background
+home_section_odd = "#000000"
+home_section_even = "rgb(255, 255, 255)" # trasparent
+
+[dark]
+  link = "#960707"
+  link_hover = "#960707"
+
+# #ff0000

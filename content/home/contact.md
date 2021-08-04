@@ -7,7 +7,7 @@ widget: contact
 headless: true
 
 # Order that this section appears on the page.
-weight: 130
+weight: 30
 
 title: Contact
 subtitle:
@@ -16,15 +16,24 @@ content:
   # Automatically link email and phone or display as text?
   autolink: true
   
-  # Email form provider
-  form:
-    provider: formspree
-    formspree:
-      id: test
-    netlify:
-      # Enable CAPTCHA challenge to reduce spam?
-      captcha: false
+ # Email form provider
+#  form:
+#    provider: netlify
+#    formspree:
+#      id:
+#    netlify:
+     # Enable CAPTCHA challenge to reduce spam?
+ #     captcha: false
   
 design:
-  columns: '2'
+  columns: '2'  
+  background:
+    image: garden_math.jpg
+    image_darken: 0.25
+    image_parallax: true
+    image_position: center
+    image_size: cover
+    text_color_light: true
+  spacing:
+    padding: ["20px", "30px", "20px", "30px"]
 ---

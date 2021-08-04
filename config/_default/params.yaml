@@ -3,12 +3,17 @@
 # Documentation: https://wowchemy.com/docs/
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-# Appearance
+#########################################################################################
+#     Appearance
+#########################################################################################
 
-theme: minimal
-day_night: true
-font: ''
-font_size: L
+# Set custom theme
+  # change 'theme: minimal' to user defined
+  # theme available in '/master/data/themes'
+theme: chris_theme # my custom theme
+day_night: false
+font: chris_font # my custom font style
+font_size: M # # Sizes: XS (extra small), S (small), M (medium), L (large - DEFAULT), XL (extra large)
 
 # SEO
 
@@ -18,70 +23,90 @@ org_name: ''
 description: ''
 twitter: ''
 
+#########################################################################################
 # Contact (edit or remove options as required)
+#########################################################################################
 
-email: test@example.org
-phone: 888 888 88 88
+email: 'c.moreh@yorksj.ac.uk'
+phone: ''
 address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
-  country: United States
-  country_code: US
+  street: |-
+    Chris Moreh <br>
+      York Business School <br>
+      York St John University <br>
+      Temple Wing 213 <br>
+      Lord Mayor's Walk <br>
+      York
+  city: YO31 7EX
+  postcode: United Kingdom
+#  country: 'United Kingdom'
+#  country_code: UK
 coordinates:
-  latitude: '37.4275'
-  longitude: '-122.1697'
-directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-office_hours:
-  - 'Monday 10:00 to 13:00'
-  - 'Wednesday 09:00 to 10:00'
-appointment_url: 'https://calendly.com'
-contact_links:
-  - icon: twitter
-    icon_pack: fab
-    name: DM Me
-    link: 'https://twitter.com/Twitter'
-  - icon: skype
-    icon_pack: fab
-    name: Skype Me
-    link: 'skype:echo123?call'
-  - icon: keybase
-    icon_pack: fab
-    name: Chat on Keybase
-    link: 'https://keybase.io/'
-  - icon: comments
-    icon_pack: fas
-    name: Discuss on Forum
-    link: 'https://discourse.gohugo.io'
+  latitude: '53.964100'
+  longitude: '-1.080290'
+#directions: ''
+#office_hours:
+#  - ''
+#contact_links:
+#  - icon: twitter
+#    icon_pack: fab
+#    name: Follow me on Twitter
+#    link: 'https://twitter.com/Twitter'
+#  - icon: google-scholar
+#    icon_pack: ai
+#    name: Follow me on Google Scholar
+#    link: https://scholar.google.com/citations?user=RqleBzoAAAAJ&hl=en
+#  - icon: researchgate
+#    icon_pack: ai
+#    name: Follow me on ResearchGate
+#    link: https://www.researchgate.net/profile/Chris-Moreh
+#  - icon: linkedin
+#    icon_pack: fab
+#    name: Connect with me on LinkedIn
+ #   link: https://www.linkedin.com/in/cgm-phd/
 
+#########################################################################################
 # Site header
+#########################################################################################
 
+# Main menu alignment (l = left, c = center, r = right) and logo options.
 main_menu:
   enable: true
-  align: l
+  align: r
   show_logo: true
   show_language: false
-  show_day_night: true
-  show_search: true
+  show_day_night: false
+  show_search: false
   highlight_active_link: true
 
 # Localization
 
-date_format: 'Jan 2, 2006'
-time_format: '3:04 PM'
-address_format: en-us
+date_format: 'Monday, 02 Jan 2006'
+time_format: '15:04'
+address_format: en-gb
 
+#########################################################################################
 # Site features
+#########################################################################################
 
+# Enable source code highlighting? true/false
 highlight: true
 highlight_languages:
   - r
   - python
   - latex
-math: false
-diagram: false
+
+# Enable LaTeX math rendering? true/false (if false, can be enabled on a per page basis as needed)
+math: true
+
+# Enable diagram rendering? true/false (if false, can be enabled on a per page basis as needed)
+diagram: true
+
+#   Show a cookie consent message to visitors
+#   Anonymize IP in Google Analytics (if enabled)
 privacy_pack: false
+
+# Enable visitors to edit pages?
 edit_page:
   repo_url: ''
   content_dir: ''
@@ -90,6 +115,7 @@ edit_page:
     page: false
     post: false
     book: false
+
 show_related:
   book: true
   page: false
@@ -97,10 +123,21 @@ show_related:
   project: true
   publication: true
   event: true
-reading_time: true
+
+# Display next/previous section pager? (true/false)
 section_pager: false
 docs_section_pager: true
+
+#########################################################################################
+# Other advanced settings
+#########################################################################################
+
+# Enable in-built social sharing buttons? (true/false)
 sharing: true
+
+# Show estimated reading time for posts? (true/false)
+reading_time: true
+
 copyright_license:
   enable: false
   allow_derivatives: false
@@ -108,20 +145,28 @@ copyright_license:
   allow_commercial: false
   notice: 'This work is licensed under {license}'
 abstract_length: 135
+
 plugins_js: []
+
 avatar:
   gravatar: false
   shape: circle
+
+# Configuration of publication pages.
 publications:
   date_format: January 2006
   citation_style: apa
+
+# Configuration of projects pages.
 projects:
   post_view: 2
   publication_view: 2
   talk_view: 2
+
 breadcrumb:
   page_types:
     book: true
+
 comments:
   provider: ''
   commentable:
@@ -135,6 +180,7 @@ comments:
     show_count: true
   commento:
     url: ''
+
 search:
   provider: wowchemy
   algolia:
@@ -142,19 +188,23 @@ search:
     api_key: ''
     index_name: ''
     show_logo: false
+
 map:
   provider: mapnik
   api_key: ''
   zoom: 15
+
 marketing:
   google_analytics: ''
   google_tag_manager: ''
   google_site_verification: ''
   baidu_site_verification: ''
   baidu_tongji: ''
+
 cms:
   branch: master
   local_backend: false
+
 icon:
   pack:
-    ai: false
+    ai: true
