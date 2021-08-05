@@ -5,7 +5,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Chris Moreh # Website name
-baseurl: https://www.chrismoreh.com
+baseurl: "https://chrismoreh.com"
 copyright: '&copy; Chris Moreh, {year}' # Footer text, e.g. '© {year} Me'
 
 ############################
