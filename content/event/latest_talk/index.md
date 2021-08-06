@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 abstract: 
 address:
 all_day: false
@@ -26,4 +26,4 @@ url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
-![](images/quote-so-it-shall-be-written-so-it-shall-be-done-yul-brynner-135-89-69.jpg)
+![](quote-so-it-shall-be-written-so-it-shall-be-done-yul-brynner-135-89-69.jpg)
