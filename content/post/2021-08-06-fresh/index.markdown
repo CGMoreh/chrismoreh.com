@@ -1,0 +1,24 @@
+---
+title: A fresh new blog post
+author: Chris Moreh
+date: '2021-08-06'
+slug: fresh
+categories:
+  - R
+tags:
+  - R Markdown
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2021-08-06T07:00:54+01:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+This is \> some text here to try out the 'quote poem' option. other text.
+
+Some content
