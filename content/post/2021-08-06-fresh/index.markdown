@@ -1,5 +1,5 @@
 ---
-title: A fresh new blog post
+title: My latest blog post
 author: Chris Moreh
 date: '2021-08-06'
 slug: fresh
@@ -18,7 +18,4 @@ image:
   preview_only: no
 projects: []
 ---
-
-This is \> some text here to try out the 'quote poem' option. other text.
-
-Some content
+![](images/quote-so-it-shall-be-written-so-it-shall-be-done-yul-brynner-135-89-69.jpg)
