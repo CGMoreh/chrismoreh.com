@@ -28,6 +28,6 @@ main:
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
-  - name: CV
+  - name: <i class="fas fa-arrow-down"></i> <b>CV</b>
     url: https://drive.google.com/file/d/17SnaTR46WngxcZsD_PC8HxynT8JW8uQJ/view?usp=sharing
     weight: 70

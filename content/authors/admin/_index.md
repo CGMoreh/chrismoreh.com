@@ -16,6 +16,12 @@ social:
 #  - icon: envelope # enable/disable email
 #    icon_pack: fas
 #    link: /#contact
+#  - icon: file-download
+#    icon_pack: fa
+#    link: https://drive.google.com/file/d/17SnaTR46WngxcZsD_PC8HxynT8JW8uQJ/view?usp=sharing
+#    label: Download my CV
+#    display:
+#      header: true
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/CGMoreh
