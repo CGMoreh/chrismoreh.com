@@ -23,7 +23,7 @@ publication: "*Central and Eastern European Migration Review*, Vol. 3, Issue 2, 
 publication_short: "*CEEMR*"
 
 date: 2014-01-01
-show_date: false
+show_date: true
 
 summary: ""
 
