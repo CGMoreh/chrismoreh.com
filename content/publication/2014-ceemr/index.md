@@ -20,10 +20,10 @@ authors:
   - admin
 
 publication: "*Central and Eastern European Migration Review*, Vol. 3, Issue 2, pp. 79-104"
-publication_short: "*CEEMR*"
+publication_short: "*Central and Eastern European Migration Review*"
 
 date: 2014-01-01
-show_date: true
+show_date: false
 
 summary: ""
 

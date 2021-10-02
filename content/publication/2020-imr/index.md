@@ -22,7 +22,7 @@ authors:
   - Athina Vlachantoni
 
 publication: "*International Migration Review*, Vol. 54, Issue 1, pp. 147-176"
-publication_short: "*IMR*"
+publication_short: "*International Migration Review*"
 
 date: 2020-01-01
 show_date: false
