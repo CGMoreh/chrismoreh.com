@@ -22,7 +22,7 @@ authors:
   - Athina Vlachantoni
 
 publication: "*International Migration Review*, Vol. 54, Issue 1, pp. 147-176"
-publication_short: "*International Migration Review*"
+publication_short: "*International Migration Review*, 54(1): 147-176"
 
 date: 2020-01-01
 show_date: false
@@ -44,14 +44,22 @@ abstract: Intra-EU migrants have traditionally faced few pressures or incentives
   complexities of integrative processes in times of radical structural change.
 
 links:
+- icon: file-pdf
+  icon-pack: fas
+  name: PDF
+  url: /publication/2020-imr/2020-imr-txt.pdf
 - icon: doi
   icon_pack: ai
-  name: DOI
+  name: Online
   url: https://journals.sagepub.com/doi/full/10.1177/0197918318809924
 - icon: github
   icon_pack: fab
-  name: Data
+  name: Data and code
   url: https://github.com/CGMoreh?tab=repositories
+- icon: bookmark
+  icon_pack: fas
+  name: Cite
+  url: /publication/2020-imr/2020-imr.bib
 
 image:
   caption: "Vol. 54, Issue 1, pp. 147-176"
