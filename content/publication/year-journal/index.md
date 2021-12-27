@@ -49,7 +49,7 @@ links:
   url: /publication/year-journal/year-journal.bib
 
 image:
-  caption: "Vol. X, Issue Y, pp. 1-2"
+  caption: ""
   focal_point: ""
   preview_only: true
 
