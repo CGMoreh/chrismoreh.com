@@ -2,16 +2,17 @@
 title: "Harm and Migration"
 
 publication_types:
-# 0 = Uncategorized
-# 1 = Conference paper
-# 2 = Journal article
-# 3 = Preprint / Working Paper
-# 4 = Report
-# 5 = Book
-# 6 = Book section
-# 7 = Thesis (v4.2+ required)
-# 8 = Patent (v4.2+ required)
-  - "6"
+# 0 = Book
+# 1 = Journal article
+# 2 = Book chapter
+# 3 = Report
+# 4 = Policy brief
+# 5 = Book review
+# 6 = Newspaper and magazine articles
+# 7 = Conference paper
+# 8 = Thesis (v4.2+ required)
+# 9 = Preprint / Working Paper
+  - "2"
 
 draft: false # Change this!
 featured: false

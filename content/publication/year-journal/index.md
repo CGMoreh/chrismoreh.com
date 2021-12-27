@@ -2,17 +2,17 @@
 title: "Publication title"
 
 publication_types:
-# 0 = Policy brief
-# 1 = Conference paper
-# 2 = Journal article
-# 3 = Preprint / Working Paper
-# 4 = Report
-# 5 = Book
-# 6 = Book chapter
-# 7 = Thesis (v4.2+ required)
-# 8 = Newspaper and magazine articles
-# 9 = Book review
-  - "2"
+# 0 = Book
+# 1 = Journal article
+# 2 = Book chapter
+# 3 = Report
+# 4 = Policy brief
+# 5 = Book review
+# 6 = Newspaper and magazine articles
+# 7 = Conference paper
+# 8 = Thesis (v4.2+ required)
+# 9 = Preprint / Working Paper
+  - "1"
 
 draft: true # Change this!
 featured: false
