@@ -41,8 +41,8 @@ address:
 #  country: 'United Kingdom'
 #  country_code: UK
 coordinates:
-  latitude: '54.9804952'
-  longitude: '-1.6167872'
+  latitude: '54.980548416857076' 
+  longitude: '-1.6144048086701253'
 #directions: ''
 #office_hours:
 #  - ''
