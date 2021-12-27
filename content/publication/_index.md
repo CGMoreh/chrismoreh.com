@@ -15,9 +15,9 @@ header:
   image: ""
   
 copyright_license:
-  enable: false
+  enable: true
   allow_derivatives: false
-  share_alike: true
+  share_alike: false
   allow_commercial: false
   notice: >-
     Except as otherwise noted, this work is licensed under {license}, and code
