@@ -17,7 +17,10 @@ draft: false
 featured: false
 
 authors:
+  - Giuseppe Troccoli
   - admin
+  - Derek McGhee
+  - Athina Vlachantoni
 
 publication: "*Journal of Ethnic and Migration Studies*, Ahead of print, pp. 1-20"
 publication_short: "*Journal of Ethnic and Migration Studies*, Ahead-of-print: 1-20"
