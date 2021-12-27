@@ -35,7 +35,7 @@ links:
 - icon: file-pdf
   icon-pack: fas
   name: PDF
-  url: /publication/2020-LandE/2020-LandE-txt.pdf
+  url: /publication/2020-L&E/2020-L&E-txt.pdf
 - icon: doi
   icon_pack: ai
   name: Online
@@ -43,7 +43,7 @@ links:
 - icon: bookmark
   icon_pack: fas
   name: Cite
-  url: /publication/2020-LandE/2020-LandE-txt.bib
+  url: /publication/2020-L&E/2020-L&E-txt.bib
 
 image:
   caption: ""
