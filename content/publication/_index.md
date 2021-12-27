@@ -13,4 +13,13 @@ view: 4
 header:
   caption: ""
   image: ""
+  
+copyright_license:
+  enable: false
+  allow_derivatives: false
+  share_alike: true
+  allow_commercial: false
+  notice: >-
+    Except as otherwise noted, this work is licensed under {license}, and code
+    samples are licensed under the MIT License.
 ---
