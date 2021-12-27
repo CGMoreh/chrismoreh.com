@@ -1,5 +1,5 @@
 ---
-title: "Publication title""
+title: "Publication title"
 
 publication_types:
 # 0 = Uncategorized
