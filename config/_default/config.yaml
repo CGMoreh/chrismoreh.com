@@ -6,7 +6,7 @@
 
 title: Chris Moreh # Website name
 baseurl: "https://chrismoreh.com"
-# copyright: '&copy; Chris Moreh, {year}' # Footer text, e.g. '© {year} Me'
+copyright: '&copy; Chris Moreh, {year}' # Footer text, e.g. '© {year} Me'
 
 ############################
 ## LANGUAGE
