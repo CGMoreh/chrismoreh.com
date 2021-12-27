@@ -13,7 +13,7 @@ publication_types:
 # 8 = Patent (v4.2+ required)
   - "6"
 
-draft: true # Change this!
+draft: false # Change this!
 featured: false
 
 authors:
