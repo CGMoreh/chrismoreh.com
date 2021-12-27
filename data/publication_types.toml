@@ -1,13 +1,13 @@
 # Publication types.
 # Each item in the list corresponds to an item in the language packs.
-types = [ "pub_brief",
-          "pub_conf",
+types = [ "pub_book",
           "pub_journal",
-          "pub_preprint",
+          "pub_chapter",          
           "pub_report",
-          "pub_book",
-          "pub_chapter",
-          "pub_thesis",
+          "pub_brief",
+          "pub_review",
           "pub_media",
-          "pub_review"
+          "pub_conf",
+          "pub_thesis",
+          "pub_preprint"
         ]
