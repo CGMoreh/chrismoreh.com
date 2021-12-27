@@ -1,6 +1,6 @@
 ---
 title: Chris Moreh
-role: Senior Lecturer in Sociology
+role: Lecturer in Sociology
 avatar_filename: avatar.jpg
 
 bio: "Political sociologist researching migration and mobility, citizenship, ethnicity, urban heritage, and political discourse."
@@ -45,11 +45,12 @@ social:
     link: https://www.linkedin.com/in/cgm-phd/
     
 organizations:
-  - name: York St John University
-    url: https://www.yorksj.ac.uk/our-staff/staff-profiles/chris-moreh.php
-  - name: Visiting Research Fellow
-  - name: ESRC Centre for Population Change, University of Southampton
-    url: https://www.southampton.ac.uk/socsci/about/staff/cm1d15.page
+  - name: Newcastle University
+    url: https://www.ncl.ac.uk/gps/about/about-sociology/
+    
+#  - name: Visiting Research Fellow
+#  - name: ESRC Centre for Population Change, University of Southampton
+#    url: https://www.southampton.ac.uk/socsci/about/staff/cm1d15.page
 
 # education:
 #   courses:

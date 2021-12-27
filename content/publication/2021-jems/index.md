@@ -20,7 +20,7 @@ authors:
   - admin
 
 publication: "*Journal of Ethnic and Migration Studies*, Ahead of print, pp. 1-20"
-publication_short: "*JEMS*, Ahead-of-print: 1-20"
+publication_short: "*Journal of Ethnic and Migration Studies*, Ahead-of-print: 1-20"
 
 date: 2021-06-21
 show_date: false

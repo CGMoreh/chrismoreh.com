@@ -27,23 +27,22 @@ twitter: ''
 # Contact (edit or remove options as required)
 #########################################################################################
 
-email: 'c.moreh@yorksj.ac.uk'
+email: 'chris.moreh@newcastle.ac.uk'
 phone: ''
 address:
   street: |-
     Chris Moreh <br>
-      York Business School <br>
-      York St John University <br>
-      Temple Wing 213 <br>
-      Lord Mayor's Walk <br>
-      York
-  city: YO31 7EX
+      School of Geography, Politics and Sociology <br>
+      Newcastle University <br>
+      Room 4.106, Henry Daysh Building <br>
+      Newcastle upon Tyne
+  city: NE1 7RX
   postcode: United Kingdom
 #  country: 'United Kingdom'
 #  country_code: UK
 coordinates:
-  latitude: '53.964100'
-  longitude: '-1.080290'
+  latitude: '54.9804952'
+  longitude: '-1.6167872'
 #directions: ''
 #office_hours:
 #  - ''
