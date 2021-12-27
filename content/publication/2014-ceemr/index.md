@@ -20,7 +20,7 @@ authors:
   - admin
 
 publication: "*Central and Eastern European Migration Review*, Vol. 3, Issue 2, pp. 79-104"
-publication_short: "*Central and Eastern European Migration Review*"
+publication_short: "*Central and Eastern European Migration Review*, 3(2): 79-104"
 
 date: 2014-01-01
 show_date: false
@@ -43,10 +43,18 @@ abstract: This paper examines Hungarian migration to the United Kingdom
   ten years.
 
 links:
+- icon: file-pdf
+  icon-pack: fas
+  name: PDF
+  url: /publication/2014-ceemr/2014-ceemr-txt.pdf
 - icon: doi
   icon_pack: ai
-  name: DOI
+  name: Online
   url: http://www.ceemr.uw.edu.pl/vol-3-no-2-december-2014/articles/decade-membership-hungarian-post-accession-mobility-united-kingdom
+- icon: bookmark
+  icon_pack: fas
+  name: Cite
+  url: /publication/2014-ceemr/2014-ceemr.bib
 
 image:
   caption: "Vol. 3, Issue 2, pp. 79-104"

@@ -1,5 +1,5 @@
 ---
-title: Publication title
+title: "Publication title""
 
 publication_types:
 # 0 = Uncategorized
@@ -18,30 +18,37 @@ featured: false
 
 authors:
   - admin
-  - Others
 
 publication: "*Journal Name*, Vol. X, Issue Y, pp. 1-2"
-publication_short: "*JN*"
+publication_short: "*JN*, X(Y): 1-2"
 
 date: 1900-01-01
 show_date: false
 
-summary: "Brief summary of the publication"
+summary: ""
 
 abstract: Longer abstract of the publication.
 
 links:
+- icon: file-pdf
+  icon-pack: fas
+  name: PDF
+  url: /publication/year-journal/year-journal-txt.pdf
 - icon: doi
   icon_pack: ai
-  name: DOI
-  url: https://link_to_article
+  name: Online
+  url: https://...
 - icon: github
   icon_pack: fab
-  name: Data
-  url: https://link_to_github
+  name: Data and code
+  url: https://github.com/...
+- icon: bookmark
+  icon_pack: fas
+  name: Cite
+  url: /publication/year-journal/year-journal.bib
 
 image:
-  caption: ""
+  caption: "Vol. X, Issue Y, pp. 1-2"
   focal_point: ""
   preview_only: true
 
