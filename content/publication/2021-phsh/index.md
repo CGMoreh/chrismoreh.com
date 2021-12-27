@@ -27,7 +27,7 @@ show_date: false
 
 summary: ""
 
-abstract: The chapter uses the conceptual framework of social harm analysis to explore harms associated with international migration. Explicitly zemiological appreciations of migratory phenomena have generally limited themselves to addressing the effects of exclusionary immigration and asylum policies targeting vulnerable migrants. This chapter aims instead to provide a broad overview of a great variety of migration processes. It argues that migration is a complex phenomenon rife with paradoxes and this often allows it to become a vehicle for social harms across different societies. It describes and examines critically three dimensions of migration-related harms\: those associated with the causes of migration, those involved in migration itself and the harms associated with the management of migration by nation-states.
+abstract: "The chapter uses the conceptual framework of social harm analysis to explore harms associated with international migration. Explicitly zemiological appreciations of migratory phenomena have generally limited themselves to addressing the effects of exclusionary immigration and asylum policies targeting vulnerable migrants. This chapter aims instead to provide a broad overview of a great variety of migration processes. It argues that migration is a complex phenomenon rife with paradoxes and this often allows it to become a vehicle for social harms across different societies. It describes and examines critically three dimensions of migration-related harms: those associated with the causes of migration, those involved in migration itself and the harms associated with the management of migration by nation-states."
 
 links:
 - icon: file-pdf
