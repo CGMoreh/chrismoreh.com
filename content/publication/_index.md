@@ -18,7 +18,7 @@ header:
 design:
   columns: "1"  
   background:
-    image: open-book.jpg
+    image: garden_math.jpg
     image_parallax: false
     image_position: center
     image_size: cover
