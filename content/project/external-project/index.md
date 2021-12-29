@@ -6,13 +6,14 @@ external_link: ""
 
 image:
   caption: From pexels.com. &copy; Creative Commons Zero (CC0)
-  focal_point: Smart
+  focal_point: Center
 summary: A collaborative research project exploring transnational healthcare practices among Polish migrants living in the UK. With Athina Vlachantoni (Southampton), Giuseppe Troccoli (Southampton) and Derek McGhee (Keele).
 
 tags:
 - Transnational healthcare
 - Migration
 - Polish
+- UK
 title: Transnational healthcare and wellbeing among Polish migrants in the UK
 
 links:
