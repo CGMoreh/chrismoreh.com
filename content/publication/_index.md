@@ -9,9 +9,20 @@ cms_exclude: true
 #   4 = Citation
 view: 4
 
-# Optional header image (relative to `static/media/` folder).
+# Optional header image (relative to `assets/media/` folder).
 header:
   caption: ""
-  image: open-book.jpg
+  image: ""
 
+design:
+  columns: "1"  
+  background:
+    image: open-book.jpg
+    image_darken: 0.25
+    image_parallax: true
+    image_position: center
+    image_size: cover
+    text_color_light: true
+  spacing:
+    padding: ["30px", "30px", "0", "30px"]
 ---
