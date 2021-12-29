@@ -13,6 +13,7 @@ view: 4
 header:
   caption: ""
   image: ""
+  preview: true
 
 # The code below isn't working; it doesn't do anything
 background:
