@@ -53,14 +53,14 @@ links:
   icon_pack: ai
   name: Online
   url: https://journals.sagepub.com/doi/full/10.1177/0197918318809924
-- icon: github
-  icon_pack: fab
-  name: Data and code
-  url: https://github.com/CGMoreh?tab=repositories
 - icon: bookmark
   icon_pack: fas
   name: Cite
   url: /publication/2020-imr/2020-imr.bib
+- icon: github
+  icon_pack: fab
+  name: Data and code
+  url: https://github.com/CGMoreh?tab=repositories
 
 image:
   caption: "Vol. 54, Issue 1, pp. 147-176"
@@ -78,7 +78,9 @@ url_slides: ""
 url_poster: ""
 url_code: ""
 author_notes: []
-tags: []
+tags:
+  - Migration
+  - Citizenship
 projects: []
 # publishDate: 2017-01-01T00:00:00Z
 

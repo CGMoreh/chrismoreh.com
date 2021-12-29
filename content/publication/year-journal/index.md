@@ -39,14 +39,14 @@ links:
   icon_pack: ai
   name: Online
   url: https://...
-- icon: github
-  icon_pack: fab
-  name: Data and code
-  url: https://github.com/...
 - icon: bookmark
   icon_pack: fas
   name: Cite
   url: /publication/year-journal/year-journal.bib
+- icon: github
+  icon_pack: fab
+  name: Data and code
+  url: https://github.com/...
 
 image:
   caption: ""
