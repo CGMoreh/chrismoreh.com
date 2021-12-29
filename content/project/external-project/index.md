@@ -5,7 +5,7 @@ show_date: false
 external_link: ""
 
 image:
-  caption: From pexels.com. &copy; Creative Commons Zero (CC0)
+  caption: From pexels.com. <i class="fab fa-creative-commons-zero"></i> Creative Commons Zero
   focal_point: Center
 summary: A collaborative research project exploring transnational healthcare practices among Polish migrants living in the UK. With Athina Vlachantoni (Southampton), Giuseppe Troccoli (Southampton) and Derek McGhee (Keele).
 
