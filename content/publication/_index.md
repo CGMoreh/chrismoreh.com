@@ -14,15 +14,13 @@ header:
   caption: ""
   image: ""
 
+# The code below isn't working; it doesn't do anything
 design:
   columns: "1"  
   background:
     image: open-book.jpg
-    image_darken: 0.25
-    image_parallax: true
+    image_parallax: false
     image_position: center
     image_size: cover
     text_color_light: true
-  spacing:
-    padding: ["30px", "30px", "0", "30px"]
 ---
