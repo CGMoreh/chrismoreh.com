@@ -15,9 +15,7 @@ header:
   image: ""
 
 # The code below isn't working; it doesn't do anything
-design:
-  columns: "1"  
-  background:
+background:
     image: garden_math.jpg
     image_parallax: false
     image_position: center
