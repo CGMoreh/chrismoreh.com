@@ -48,6 +48,7 @@ image:
   caption: ""
   focal_point: ""
   preview_only: true
+  preview: true
 
 slides: ""
 doi: ""
