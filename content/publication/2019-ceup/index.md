@@ -34,7 +34,7 @@ links:
 - icon: file-pdf
   icon-pack: fas
   name: PDF
-  url: /publication/2019-ceup/2019-ceup.pdf
+  url: /publication/2019-ceup/2019-ceup-txt.pdf
 - icon: doi
   icon_pack: ai
   name: Online

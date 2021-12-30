@@ -34,7 +34,7 @@ links:
 - icon: file-pdf
   icon-pack: fas
   name: PDF
-  url: /publication/2014-jems/2014-jems.pdf
+  url: /publication/2014-jems/2014-jems-txt.pdf
 - icon: doi
   icon_pack: ai
   name: Online

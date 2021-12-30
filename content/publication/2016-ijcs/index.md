@@ -34,7 +34,7 @@ links:
 - icon: file-pdf
   icon-pack: fas
   name: PDF
-  url: /publication/2016-ijcs/2016-ijcs.pdf
+  url: /publication/2016-ijcs/2016-ijcs-txt.pdf
 - icon: doi
   icon_pack: ai
   name: Online

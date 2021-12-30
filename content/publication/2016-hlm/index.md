@@ -34,7 +34,7 @@ links:
 - icon: file-pdf
   icon-pack: fas
   name: PDF
-  url: /publication/2016-hlm/2016-hlm.pdf
+  url: /publication/2016-hlm/2016-hlm-txt.pdf
 - icon: doi
   icon_pack: ai
   name: Online
