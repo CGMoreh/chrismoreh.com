@@ -1,5 +1,5 @@
 ---
-title: *Alcalái Románok. Migráció és társadalmi differenciálódás*
+title: *"Alcalái Románok. Migráció és társadalmi differenciálódás"*
 
 publication_types:
 # 0 = Book
