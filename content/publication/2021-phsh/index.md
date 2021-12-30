@@ -20,8 +20,8 @@ featured: false
 authors:
   - admin
 
-publication: "In: Davies P., Leighton P., Wyatt T. (eds) *The Palgrave Handbook of Social Harm*, pp. 421-452.  Palgrave Macmillan, Cham."
-publication_short: "*The Palgrave Handbook of Social Harm*, pp. 421-452"
+publication: "In: Davies P., Leighton P. and Wyatt T. (eds) *The Palgrave Handbook of Social Harm*. Cham: Palgrave Macmillan, pp. 421-452"
+publication_short: "In *The Palgrave Handbook of Social Harm*, pp. 421-452"
 
 date: 2021-09-03
 show_date: false
@@ -47,7 +47,7 @@ links:
 image:
   caption: ""
   focal_point: ""
-  preview_only: true
+  preview_only: false
   preview: true
 
 slides: ""
