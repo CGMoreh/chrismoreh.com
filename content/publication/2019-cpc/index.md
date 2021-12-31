@@ -40,7 +40,7 @@ links:
 - icon: doi
   icon_pack: ai
   name: Online
-  url: http://www.cpc.ac.uk/publications/
+  url: http://www.cpc.ac.uk/publications/#briefing_paper
 - icon: bookmark
   icon_pack: fas
   name: Cite
