@@ -46,7 +46,7 @@ social:
     
 organizations:
   - name: Newcastle University
-    url: [{"https://www.ncl.ac.uk/gps/about/about-sociology/", logo = true}]
+    url: https://www.ncl.ac.uk/gps/about/about-sociology/, logo = true
     
 #  - name: Visiting Research Fellow
 #  - name: ESRC Centre for Population Change, University of Southampton
