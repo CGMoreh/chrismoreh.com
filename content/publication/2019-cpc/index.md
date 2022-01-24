@@ -40,7 +40,7 @@ links:
 - icon: doi
   icon_pack: ai
   name: Online
-  url: http://www.cpc.ac.uk/publications/#briefing_paper
+  url: http://www.cpc.ac.uk/docs/PB48_Polish_migrants_experiences_of_brexit.pdf
 - icon: bookmark
   icon_pack: fas
   name: Cite
