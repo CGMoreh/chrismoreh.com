@@ -30,12 +30,12 @@ show_date: false
 
 summary: ""
 
-abstract: Concerns about EU migrants’ use of public healthcare services in the UK are widespread. The
+abstract: "Concerns about EU migrants’ use of public healthcare services in the UK are widespread. The
 assumption is that high quality free universal healthcare provision in the UK attracts migrants and
 allows potential abuse of the system. This research examines migrants’ perceptions and preferences
 around healthcare, and our findings suggest that these assumptions are often unfounded, with
 migrants’ preferring to have medical treatment in their country of origin, where they often perceive
-the standard of healthcare to be higher than that of the UK.
+the standard of healthcare to be higher than that of the UK."
 
 links:
 - icon: file-pdf

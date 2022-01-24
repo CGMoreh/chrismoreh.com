@@ -30,7 +30,7 @@ show_date: false
 
 summary: ""
 
-abstract: What might EU migrants in the UK do in order to cope with the UK’s departure from the EU? Might they stay or leave? Using data from a pre-EU Referendum online survey we examine how Portuguese, Polish and Romanian nationals in the UK intended to respond to the EU Referendum. Excluding the Irish, these groups are the three largest EU nationality groups in the UK.
+abstract: "What might EU migrants in the UK do in order to cope with the UK’s departure from the EU? Might they stay or leave? Using data from a pre-EU Referendum online survey we examine how Portuguese, Polish and Romanian nationals in the UK intended to respond to the EU Referendum. Excluding the Irish, these groups are the three largest EU nationality groups in the UK."
 
 links:
 - icon: file-pdf
