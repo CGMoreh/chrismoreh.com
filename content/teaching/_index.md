@@ -7,12 +7,16 @@ header:
   image: ""
 ---
 
-### Selected courses
-- Advanced Research Methods 1: Quantitative (MRes | Autumn 2020, 2021)
-- Social Research Methods 2: Quantitative (BA | Autumn 2020, 2021)
-- State, Nation and Migration (BA | Spring 2021)
-- Political Sociology (BA | Spring 2021)
+### Selected methodology courses
+- **Researching Social Life 1** (BA Year 2 | Autumn 2022 | Newcastle University)
+    
+    <i class="fas fa-home"></i> Course website &emsp;  <i class="fas fa-university"></i> [Module catalogue](https://www.ncl.ac.uk/module-catalogue/module.php?code=SOC2069)
+
+- **Advanced Research Methods 1: Quantitative** (MRes | Autumn 2020, 2021 | York St. John University)
+
+    <i class="fas fa-home"></i> Course website
+
 
 ### Workshops and training courses
-- Social Statistics using Stata (Staff/PGR CPD | Spring 2020)
-- Transparency, Reliability and Significance (TRandS) in Social Science (Staff/PGR CPD | Spring 2020)
+- **Social Statistics using Stata** (Staff/PGR CPD | Spring 2020 | York St. John University)
+- **Transparency, Reliability and Significance (TRandS) in Social Science** (Staff/PGR CPD | Spring 2020 | York St. John University)
