@@ -18,7 +18,7 @@ draft: false
 featured: false
 
 authors:
-  - Chris
+  - admin
 
 publication: "*Central and Eastern European Migration Review*, Vol. 3, Issue 2, pp. 79-104"
 publication_short: "*Central and Eastern European Migration Review*, 3(2): 79-104"
