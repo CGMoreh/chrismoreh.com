@@ -23,7 +23,7 @@ cta:
 
 cta_alt:
   label: '**More about me**'
-  url: https://drive.google.com/file/d/17SnaTR46WngxcZsD_PC8HxynT8JW8uQJ/view?usp=sharing
+  url: 
   icon_pack: fa
   icon: file-pdf
 
