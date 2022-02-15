@@ -16,7 +16,7 @@ title: About me
 
 cta:
     label: '**Download CV**'
-    url: https://drive.google.com/file/d/17SnaTR46WngxcZsD_PC8HxynT8JW8uQJ/view?usp=sharing
+    url: https://www.chrismoreh.com/cv_moreh.pdf
     icon_pack: fa
     icon: file-pdf
 
