@@ -6,7 +6,10 @@
 main:
 #  - name: Home
 #    url: '#about'
-#   weight: 10
+#    weight: 10
+#  - name: More
+#    url: '/CopyOfhome'
+#    weight: 10
   - name: Blog
     url: '/post'
     weight: 40
@@ -28,6 +31,6 @@ main:
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
-  - name: <i class="fas fa-arrow-down"></i> <b>CV</b>
-    url: https://www.chrismoreh.com/cv_moreh.pdf
-    weight: 70
+#  - name: <i class="fas fa-arrow-down"></i> <b>CV</b>
+#    url: https://www.chrismoreh.com/cv_moreh.pdf
+#    weight: 70

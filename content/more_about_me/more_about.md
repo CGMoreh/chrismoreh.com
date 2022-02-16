@@ -7,26 +7,12 @@ widget: about
 active: true
 
 # This file represents a page section.
-headless: true
+headless: false
 
 # Order that this section appears on the page.
 weight: 10
 
-title: About me
-
-# Edit the below buttons in /layouts/partials/widgets/about.html
-
-cta:
-    label: '**More about me**'
-    url: '/more_about_me/'
-    icon_pack: fa
-    icon: file-pdf
-
-cta_alt:
-  label: '**More about me**'
-  url: 'add link to page'
-#  icon_pack: fa
-#  icon: file-pdf
+title: More about me
 
 design:
   columns: "1"  
@@ -38,11 +24,10 @@ design:
     image_size: cover
     text_color_light: true
   spacing:
-    # Customize the section spacing. Order is top, right, bottom, left.
-    padding: ["7px", "45px", "1px", "0"]
+    padding: ["30px", "30px", "0", "20px"]
 
 # Choose the user profile to display
 # This should be the username (folder name) of a profile in your `content/authors/` folder.
 # See https://wowchemy.com/docs/get-started/#introduce-yourself
-author: admin
+author: admin_details
 ---

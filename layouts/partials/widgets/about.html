@@ -106,7 +106,8 @@
       {{ end }}
 
     </div>
-	
+
+<!--
 	    {{/* Call-to-action link */}}
     {{ if $page.Params.cta.url }}
       {{ $pack := or $page.Params.cta.icon_pack "fas" }}
@@ -124,21 +125,28 @@
       {{ end }}
     <p class="cta-btns">
       <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }} class="btn {{if $bg.text_color_light}}btn-light{{else}}btn-primary{{end}} btn-lg">{{ if $page.Params.cta.icon }}<i class="{{ $pack }} {{ $pack_prefix }}-{{ $page.Params.cta.icon }} pr-1" aria-hidden="true"></i>{{end}}{{ $page.Params.cta.label | markdownify | emojify | safeHTML }}</a>
-
+    </p>
+-->
       {{/* Alternative Call-to-action link */}}
       {{ if $page.Params.cta_alt.url }}
-        {{ $link := $page.Params.cta_alt.url }}
-        {{ $scheme := (urls.Parse $link).Scheme }}
-        {{ $target := "" }}
-        {{ if not $scheme }}
-          {{ $link = $link | relLangURL }}
-        {{ else if in (slice "http" "https") $scheme }}
-          {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
-        {{ end }}
-      <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }} class="hero-cta-alt pl-4">{{ $page.Params.cta_alt.label | markdownify | emojify | safeHTML }} </a>
+              {{ $pack := or $page.Params.cta.icon_pack "fas" }}
+      {{ $pack_prefix := $pack }}
+      {{ if in (slice "fab" "fas" "far" "fal") $pack }}
+        {{ $pack_prefix = "fa" }}
       {{ end }}
-    </p>
-    {{ end }}
+      {{ $link := $page.Params.cta_alt.url }}
+      {{ $scheme := (urls.Parse $link).Scheme }}
+      {{ $target := "" }}
+      {{ if not $scheme }}
+        {{ $link = $link | relLangURL }}
+      {{ else if in (slice "http" "https") $scheme }}
+        {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+      {{ end }}
+    <p class="cta-btns">
+      <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }} class="hero-cta-alt">{{ $page.Params.cta_alt.label | markdownify | emojify | safeHTML }} </a>
+      {{ end }}
+    </p> <!-- Remove this </p> and the <p class="cta-btns"> in line 145 to place buttons next to one another -->
+<!--    {{ end }} -->
 
   </div>
 </div>

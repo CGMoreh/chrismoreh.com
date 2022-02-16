@@ -43,6 +43,12 @@ social:
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/cgm-phd/
+  - icon: cv
+    icon_pack: ai
+    link: https://www.chrismoreh.com/cv_moreh.pdf
+    label: Download my CV
+    display:
+      header: true
     
 organizations:
   - name: Newcastle University
@@ -70,6 +76,5 @@ highlight_name: true
 ---
 <br>
 I am a political sociologist studying migration, ethnicity and nationalism. In various side-projects I have also explored the social implications of urban heritage, public discourse and international education. My approach to research is comparative, interdisciplinary and multimethodological. In my work I combine participant observation, qualitative interviewing, archival research, survey methods and statistical modelling. I'm passionate about open social science and storytelling, and I'm learning about probabilistic reasoning and Bayesian inference. 
-<br>
 <br>
 <br>

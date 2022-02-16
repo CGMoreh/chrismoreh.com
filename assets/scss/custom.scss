@@ -2,11 +2,15 @@
 /* Whole document: */
 
 body {
-  margin-top: 100px !important;
+  margin-top: 70px !important;
 }
 
 .navbar {
-  min-height: 100px !important;
+  min-height: 70px !important;
+  height: 70px;
+  background-color: #fcfcfc33;
+  box-shadow: 0 0 30px rgba(252, 252, 252, 0.56);
+  background-image: linear-gradient(to bottom, #fcfcfc, #fcfcfc, #fcfcfcfa, #fcfcfcea, #fcfcfcda, #fcfcfcca, #fcfcfcba, #fcfcfcaa, #fcfcfc76, #fcfcfc23) !important;
 }
 
 /* Make mobile navbar skinnier */
@@ -19,12 +23,6 @@ body {
       min-height: 70px !important;
     }
   }
-
-.navbar {
-    background-color: #fcfcfc33;
-    box-shadow: 0 0 10px rgba(252, 252, 252, 0.76);
-    background-image: linear-gradient(to bottom, #fcfcfc, #fcfcfc, #fcfcfc, #fcfcfced, #fcfcfcba, #fcfcfc33) !important;  
-}
 
 /*make drop down menu more opaque on mobile */
 
@@ -82,7 +80,7 @@ a.nav-link:hover:after {
 
 .dropdown-menu,
 nav#navbar-main li.nav-item {
-  font-size: 20px;
+  font-size: 17px;
   font-weight: bold;
 }
 
@@ -94,13 +92,14 @@ nav#navbar-main li.nav-item {
  **************************************************/
 
 footer {
-  margin: 1rem 0 0;
+  margin: 0.5rem 0 0;
   padding: 2px 0;
+  height: 20px;
   width: 100%;
 }
 
 footer p {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   text-align: center;
 }
 
@@ -341,4 +340,64 @@ a.hero-cta-alt:hover {
 .dark .btn-primary,
 .dark .btn.btn-primary.active {
   color: #000000;
+}
+
+/* Size of pictures */
+
+.gallery a[data-fancybox] img {
+  height: 190px;
+  max-width: 40%;
+  display: inherit;
+  padding: 3px;
+}
+
+/* Post font size & page width */
+.article-container {
+  max-width: 850px;
+  padding: 0 20px 0 20px;
+  margin: 0 auto 0 auto;
+  font-size: 20px;
+}
+
+
+/* Callout box settings */
+
+.article-style aside p,
+div.alert > div {
+  position: relative;
+  display: block;
+  /* I made the font size smaller & adjusted the margin-left */
+  font-size: 0.8rem;
+  margin-left: 1.7rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* I also changed the color of the icon & its top & left positions */ 
+.article-style aside p::before,
+div.alert > div:first-child::before {
+  position: absolute;
+  top: -0.3rem;
+  left: -2rem;
+  font-size: 1.4rem;
+  color: #0EAD69;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f05a';
+  width: 1rem;
+  text-align: left;
+}
+
+/* You can edit the borders and backgrounds here */
+.article-style aside,
+.alert-note {
+  color: #26547C;
+  background-color: #F7F7F7;
+  border-color: #0EAD69;
+}
+
+.alert-warning {
+  color: #cd0930;
+  background-color: #fff5f7;
+  border-color: #ff3860;
 }
