@@ -12,7 +12,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 10
 
-title: About me
+#title: About me
 
 # Edit the below buttons in /layouts/partials/widgets/about.html
 
