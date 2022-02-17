@@ -12,27 +12,27 @@ headless: true
 # Order that this section appears on the page.
 weight: 10
 
-#title: About me
+title: Welcome to my site
 
 # Edit the below buttons in /layouts/partials/widgets/about.html
 
 cta:
     label: '**More about me**'
     url: '/more_about_me/'
-    icon_pack: fa
-    icon: file-pdf
+#    icon_pack: fa
+#    icon: file-pdf
 
-cta_alt:
-  label: '**More about me**'
-  url: 'add link to page'
-#  icon_pack: fa
-#  icon: file-pdf
+#cta_alt:
+#  label: '**More about me**'
+#  url: 'add link to page'
+cta_note:
+  label: 
 
 design:
   columns: "1"  
   background:
     image: garden_math.jpg
-    image_darken: 0.25
+    image_darken: 0.35
     image_parallax: true
     image_position: center
     image_size: cover

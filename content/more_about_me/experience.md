@@ -1,5 +1,5 @@
 ---
-active: false
+active: true
 
 # An instance of the Experience widget.
 # Documentation: https://wowchemy.com/docs/page-builder/
@@ -49,4 +49,13 @@ experience:
 
 design:
   columns: '2'
+  background:
+    image: garden_math.jpg
+    image_darken: 0.35
+    image_parallax: true
+    image_position: center
+    image_size: cover
+    text_color_light: true
+  spacing:
+    padding: ["30px", "30px", "0", "20px"]
 ---

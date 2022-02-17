@@ -107,7 +107,7 @@
 
     </div>
 
-<!--
+
 	    {{/* Call-to-action link */}}
     {{ if $page.Params.cta.url }}
       {{ $pack := or $page.Params.cta.icon_pack "fas" }}
@@ -125,8 +125,8 @@
       {{ end }}
     <p class="cta-btns">
       <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }} class="btn {{if $bg.text_color_light}}btn-light{{else}}btn-primary{{end}} btn-lg">{{ if $page.Params.cta.icon }}<i class="{{ $pack }} {{ $pack_prefix }}-{{ $page.Params.cta.icon }} pr-1" aria-hidden="true"></i>{{end}}{{ $page.Params.cta.label | markdownify | emojify | safeHTML }}</a>
-    </p>
--->
+    
+
       {{/* Alternative Call-to-action link */}}
       {{ if $page.Params.cta_alt.url }}
               {{ $pack := or $page.Params.cta.icon_pack "fas" }}
@@ -142,11 +142,11 @@
       {{ else if in (slice "http" "https") $scheme }}
         {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
       {{ end }}
-    <p class="cta-btns">
-      <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }} class="hero-cta-alt">{{ $page.Params.cta_alt.label | markdownify | emojify | safeHTML }} </a>
+<!--    <p class="cta-btns"> -->
+      <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }} class="hero-cta-alt pl-4">{{ $page.Params.cta_alt.label | markdownify | emojify | safeHTML }} </a>
       {{ end }}
-    </p> <!-- Remove this </p> and the <p class="cta-btns"> in line 145 to place buttons next to one another -->
-<!--    {{ end }} -->
+   </p> <!-- To place buttons next to one another: Remove the <p class="cta-btns"> in line 145; remove this </p> in line 148; remove the end below in line 149; add pl-4 to class="hero-cta-alt ..." in line 146 -->
+   {{ end }} 
 
   </div>
 </div>

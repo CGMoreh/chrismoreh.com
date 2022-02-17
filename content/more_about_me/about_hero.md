@@ -17,7 +17,7 @@ cta:
 
 cta_alt:
   label: Ask a question
-  url: 
+  url: www.some.com
 cta_note:
   label: 
 

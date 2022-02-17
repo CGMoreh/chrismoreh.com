@@ -114,6 +114,11 @@
 - id: present
   translation: Present
 
+# Education widget
+
+- id: present
+  translation: Present
+
 # Pages widget
 
 - id: more_pages

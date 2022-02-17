@@ -4,7 +4,7 @@
 widget: about
 
 # Activate this widget? true/false
-active: true
+active: false
 
 # This file represents a page section.
 headless: false
@@ -18,7 +18,7 @@ design:
   columns: "1"  
   background:
     image: garden_math.jpg
-    image_darken: 0.25
+    image_darken: 0.35
     image_parallax: true
     image_position: center
     image_size: cover
