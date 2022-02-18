@@ -19,7 +19,7 @@ featured: false
 
 authors:
   - Giuseppe Troccoli
-  - admin
+  - Chris Moreh
   - Derek McGhee
   - Athina Vlachantoni
 

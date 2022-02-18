@@ -1,5 +1,5 @@
 /*************************************************
- *  Contact
+ *  CV
  **************************************************/
 
 .wg-contact .fa-ul {
@@ -27,11 +27,4 @@
   height: 350px;
   width: 90%;
   left: 2.14285714rem;
-}
-
-// Prevent OpenStreetMap inheriting link color from section of a different theme variation.
-// E.g. Light colored OpenStreetMap UI inheriting dark themed link (`.home-section.dark a`)
-// from a dark widget page section.
-#map a {
-  color: initial;
 }

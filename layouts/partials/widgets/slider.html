@@ -28,8 +28,8 @@
         {{ errorf "Couldn't find `%s` in the `assets/media/` folder - please add it." $item.overlay_img }}
       {{ end }}
       {{ if $item.overlay_filter }}
-        {{ $style_bg = printf "%sfilter: brightness(%s);" $style_bg (string $item.overlay_filter) }}
-      {{ end }}
+		{{ $style_bg = printf "%sbackground-image: linear-gradient(rgba(0, 0, 0, %s), rgba(0, 0, 0, %s)), url('%s'); background-position: center; background-repeat: no-repeat; background-size: cover;" $style_bg (string $item.overlay_filter) (string $item.overlay_filter) $bg_img.Permalink }}      
+	 {{ end }}
    {{ end }}
 
   <div class="wg-hero dark carousel-item{{if eq $index 0}} active{{end}}" style="{{$style_bg | safeCSS}}">

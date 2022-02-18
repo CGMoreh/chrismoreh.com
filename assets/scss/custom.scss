@@ -295,3 +295,45 @@ div.alert > div:first-child::before {
   background-color: #fff5f7;
   border-color: #ff3860;
 }
+
+
+/*****************
+* TESTING *
+******************/
+
+#about {
+	@keyframes slide-up {
+		0% {
+    transform: translate3d(5ch,10in, 6em);
+		}
+		100% {
+    transform: translate3d(0);
+		}
+	}
+
+	@keyframes fade-in {
+	  0% {
+		opacity: 0;
+	  }
+	  100% {
+		opacity: 1;
+	  }
+	}
+
+  .biography-title {
+    font-size: 50px;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px #ababab;
+	}
+  
+  .main-content {
+	animation: slide-up 2s cubic-bezier(.33,1,.68,1) forwards;
+	animation-delay: 0ms;
+	}
+
+	.moreabout-button{
+	opacity: 0;
+	animation: fade-in 3s forwards;
+	animation-delay: 4s;
+	}
+}

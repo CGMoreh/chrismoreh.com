@@ -71,9 +71,11 @@
   <div class="col-12 col-lg-8">
 
     {{/* Only display widget title in explicit instances of about widget, not in author pages. */}}
-    {{ if and $page.Params.widget $page.Title }}<h1>{{ $page.Title | markdownify | emojify }}</h1>{{ end }}
+    {{ if and $page.Params.widget $page.Title }}<h1 class="biography-title">{{ $page.Title | markdownify | emojify }}</h1>{{ end }}
 
-    {{ $person_page.Content }}
+	<div class="main-content">
+	{{ $person_page.Content }}
+	</div>
 
     <div class="row">
 
@@ -107,7 +109,7 @@
 
     </div>
 
-
+<div class="moreabout-button">
 	    {{/* Call-to-action link */}}
     {{ if $page.Params.cta.url }}
       {{ $pack := or $page.Params.cta.icon_pack "fas" }}
@@ -147,6 +149,6 @@
       {{ end }}
    </p> <!-- To place buttons next to one another: Remove the <p class="cta-btns"> in line 145; remove this </p> in line 148; remove the end below in line 149; add pl-4 to class="hero-cta-alt ..." in line 146 -->
    {{ end }} 
-
+</div>
   </div>
 </div>

@@ -18,7 +18,7 @@ title: Welcome to my site
 
 cta:
     label: '**More about me**'
-    url: '/more_about_me_ADD/'
+    url: '/more_about_meADD/'
 #    icon_pack: fa
 #    icon: file-pdf
 
@@ -32,7 +32,7 @@ design:
   columns: "1"  
   background:
     image: garden_math.jpg
-    image_darken: 0.35
+    image_darken: 0.3
     image_parallax: true
     image_position: center
     image_size: cover

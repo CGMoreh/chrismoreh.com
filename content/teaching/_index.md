@@ -1,10 +1,12 @@
 ---
 title: Teaching
-type: blank
+type: "widget_page"
 
 header:
   caption: ""
   image: ""
+
+headless: false  
 ---
 
 ### Selected methodology courses

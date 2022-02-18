@@ -3,6 +3,8 @@
 # Documentation: https://sourcethemes.com/academic/docs/page-builder/
 widget: contact
 
+active: true
+
 # This file represents a page section.
 headless: true
 
@@ -10,7 +12,7 @@ headless: true
 weight: 110
 
 title: Contact
-subtitle:
+subtitle: 
 
 content:
   # Automatically link email and phone or display as text?
@@ -29,7 +31,7 @@ design:
   columns: '2'  
   background:
     image: garden_math.jpg
-    image_darken: 0.25
+    image_darken: 0.3
     image_parallax: true
     image_position: center
     image_size: cover
@@ -37,3 +39,4 @@ design:
   spacing:
     padding: ["20px", "30px", "20px", "30px"]
 ---
+
