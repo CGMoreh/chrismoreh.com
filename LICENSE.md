@@ -1,4 +1,4 @@
-MIT License
+CC-BY License
 
 Copyright (c) 2021-present Chris Moreh
 
