@@ -18,11 +18,8 @@ subtitle:
 design:
   columns: "2"
   background:
-    image: garden_math.jpg
-    image_darken: 0.80
-    image_parallax: true
-    image_position: center
-    image_size: cover
+    gradient_end: '#1976d2'
+    gradient_start: '#004ba0'
     text_color_light: true
   spacing:
     padding: ["20px", "0", "20px", "0"]

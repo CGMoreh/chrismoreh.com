@@ -11,8 +11,8 @@ headless: true
 # Order that this section appears on the page.
 weight: 110
 
-title: Contact
-subtitle: 
+#title: Contact
+#subtitle: 
 
 content:
   # Automatically link email and phone or display as text?
@@ -28,7 +28,6 @@ content:
  #     captcha: false
   
 design:
-  columns: '2'  
   background:
     image: garden_math.jpg
     image_darken: 0.3
@@ -37,6 +36,7 @@ design:
     image_size: cover
     text_color_light: true
   spacing:
-    padding: ["20px", "30px", "20px", "30px"]
+    # Customize the section spacing. Order is top, right, bottom, left.
+    padding: ["10px", "0px", "0px", "0px"]
 ---
 

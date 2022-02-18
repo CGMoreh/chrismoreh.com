@@ -1,5 +1,11 @@
 ---
- interests:
+title: Chris Moreh
+#role: Lecturer in Sociology
+#avatar_filename: avatar.jpg
+
+bio: "Political sociologist researching migration and mobility, citizenship, ethnicity, urban heritage, and political discourse."
+
+interests:
    - International migration
    - Nationalism, ethnicity and citizenship
    - Mixed methods research
@@ -7,7 +13,7 @@
    - Languages
 
 
- education:
+education:
    courses:
      - course: PhD in Social Science
        institution: Northumbria University (UK)

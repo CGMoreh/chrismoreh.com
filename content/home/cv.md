@@ -28,7 +28,7 @@ education:
 
 
 design:
-  columns: "1"  
+  columns: '2' 
   background:
     image: garden_math.jpg
     image_darken: 0.3

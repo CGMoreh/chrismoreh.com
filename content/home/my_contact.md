@@ -1,9 +1,9 @@
 ---
-widget: CV
+widget: my_contact
 
 
 # Activate this widget? true/false
-active: true
+active: false
 
 # This file represents a page section.
 headless: true
@@ -11,24 +11,14 @@ headless: true
 # Order that this section appears on the page.
 weight: 30
 
-title: Curriculum Vitae
+title: My Contact
 
-
-education:
-  courses:
-     - course: PhD in Social Science
-       institution: Northumbria University (UK)
-       year: 2015
-     - course: MA in Sociology and Social Anthropology
-       institution: Central European University (Hungary)
-       year: 2011
-     - course: BA & MA in Cultural Anthropology
-       institution: Eötvös Loránd University of Budapest (Hungary)
-       year: 2010
-
+content:
+  # Automatically link email and phone or display as text?
+  autolink: true
 
 design:
-  columns: "1"  
+  columns: '2' 
   background:
     image: garden_math.jpg
     image_darken: 0.3

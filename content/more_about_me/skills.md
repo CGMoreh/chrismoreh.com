@@ -6,7 +6,7 @@ active: true
 widget: featurette
 
 # This file represents a page section.
-headless: true
+headless: false
 
 # Order that this section appears on the page.
 weight: 30
@@ -45,4 +45,17 @@ feature:
 #  icon_pack: custom
 #  name: Surfing
 #  description: 90%
+
+design:
+  background:
+    image: garden_math.jpg
+    image_darken: 0.3
+    image_parallax: true
+    image_position: center
+    image_size: cover
+    text_color_light: true
+  spacing:
+    # Customize the section spacing. Order is top, right, bottom, left.
+    padding: ["7px", "45px", "1px", "0"]
+
 ---

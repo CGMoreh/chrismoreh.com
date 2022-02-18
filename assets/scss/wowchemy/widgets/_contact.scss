@@ -3,14 +3,14 @@
  **************************************************/
 
 .wg-contact .fa-ul {
-  margin-left: 2.14285714rem; /* Must be > `fa-2x` icon size. */
+  margin-left: 6.14285714rem; /* Must be > `fa-2x` icon size. */
 }
 
 .wg-contact .fa-li {
   position: absolute;
   left: -3.14285714rem; /* Negative of `.wg-contact .fa-ul` margin. */
   width: 2rem; /* Match `fa-2x` icon size. */
-  top: 0.14285714em; /* Default FA value. */
+  top: 0em; /* Default FA value. */
   text-align: center;
 }
 
@@ -25,8 +25,9 @@
 
 #map {
   height: 350px;
-  width: 90%;
-  left: 2.14285714rem;
+  width: 55%;
+  left: 11rem;
+  top: -12em; 
 }
 
 // Prevent OpenStreetMap inheriting link color from section of a different theme variation.
