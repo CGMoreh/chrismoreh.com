@@ -4,4 +4,4 @@ My personal website, built using the R package [`blogdown`](https://bookdown.org
 
 Check it out [here](https://www.chrismoreh.com/)!
 
-[![Website Thumbnail](site-thumbnail.png)](https://www.chrismoreh.com/)
+[![Website Thumbnail](site-thumbnail.jpg)](https://www.chrismoreh.com/)
