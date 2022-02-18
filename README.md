@@ -2,6 +2,6 @@
 
 My personal website, built using the R package [`blogdown`](https://bookdown.org/yihui/blogdown/) based on the [Hugo Academic](https://themes.gohugo.io/academic/) theme, deployed on [Netlify](https://www.netlify.com/).
 
-Check it out [here](https://connorrothschild.github.io/v2/)!
+Check it out [here](https://www.chrismoreh.com/)!
 
-[![Website Thumbnail](thumbnail.jpg)](https://connorrothschild.github.io/v2/)
+[![Website Thumbnail](site-thumbnail.jpg)](https://www.chrismoreh.com/)
