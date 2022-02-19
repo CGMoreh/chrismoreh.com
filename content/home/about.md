@@ -18,7 +18,7 @@ title: Welcome to my site
 
 cta:
     label: '**More about me**'
-    url: '/more_about_meADD/'
+    url: '/more_about_me/ADD'
 #    icon_pack: fa
 #    icon: file-pdf
 

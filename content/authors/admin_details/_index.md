@@ -1,7 +1,7 @@
 ---
 title: Chris Moreh
 #role: Lecturer in Sociology
-#avatar_filename: avatar.jpg
+avatar_filename: avatar.jpg
 
 bio: "Political sociologist researching migration and mobility, citizenship, ethnicity, urban heritage, and political discourse."
 

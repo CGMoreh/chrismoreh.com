@@ -1,54 +1,84 @@
 ---
-active: true
-
-# An instance of the Experience widget.
-# Documentation: https://wowchemy.com/docs/page-builder/
 widget: experience
-
-# This file represents a page section.
 headless: true
-
-# Order that this section appears on the page.
+active: true
 weight: 40
-
-title: Experience
-subtitle:
-
-# Date format for experience
-#   Refer to https://wowchemy.com/docs/customization/#date-format
+title: Employment
+subtitle: 
 date_format: Jan 2006
-
-# Experiences.
-#   Add/remove as many `experience` items below as you like.
-#   Required fields are `title`, `company`, and `date_start`.
-#   Leave `date_end` empty if it's your current employer.
-#   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: CEO
-    company: GenCoin
-    company_url: ''
-    company_logo: org-gc
-    location: California
-    date_start: '2021-01-01'
+  - title: Data Scientist
+    logo: experience-logos/socom.png
+    company: US Special Operations Command
+    company_url: 'https://www.socom.mil/'
+    location: 'Tampa, Florida'
+    date_start: '2020-05-30'
+    date_end: '2020-08-08'
+    description: >
+      Through a fellowship with [Coding It
+      Forward](https://www.codingitforward.com/), I worked as a data science
+      intern with the US Special Operations Command. I assisted in the creation
+      of a machine learning model for predictive maintenance on CV-22
+      helicopters to reduce downtime & improve readiness. I also built a
+      fullstack web application from scratch that automates the process of
+      verifying inventory data. The tool is expected to save roughly 2,500 man
+      hours and $102,000 annually.
+  - title: Associate Data Scientist
+    logo: experience-logos/moksha.png
+    company: Moksha Data
+    company_url: 'https://www.mokshadata.com'
+    location: 'Houston, Texas'
+    date_start: '2020-05-01'
     date_end: ''
-    description: |2-
-        Responsibilities include:
+    description: ''
+  - title: Data Science and Research Intern
+    logo: experience-logos/tpl.png
+    company: Texas Policy Lab
+    company_url: 'https://www.texaspolicylab.org/'
+    location: 'Houston, Texas'
+    date_start: '2018-08-30'
+    date_end: ''
+    description: >-
+      I conduct policy research and assist with data for the [Texas Policy
+      Lab](https://www.texaspolicylab.org/). I create engaging data
+      visualizations for internal and external use, develop reports detailing
+      analyses of existing programs, and produce data dashboards for government
+      partners. 
         
-        * Analysing
-        * Modelling
-        * Deploying
+  - title: Undergraduate Research Fellow
+    logo: experience-logos/rplp.png
+    company: Religion and Public Life Program
+    company_url: 'https://rplp.rice.edu/'
+    location: 'Houston, Texas'
+    date_start: '2019-09-01'
+    date_end: '2020-04-21'
+    description: >-
+      Under the direction of Dr. Elaine Howard Ecklund, I worked as one of three
+      undergraduate fellows at the [Religion and Public Life
+      Program](https://rplp.rice.edu/) at Rice University. I assist in the
+      writing of literature reviews, code and categorize interview transcripts,
+      and do general research for RPLP fellows. 
         
-  - title: Professor of Semiconductor Physics
-    company: University X
-    company_url: ''
-    company_logo: org-x
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2020-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
+  - title: Research Intern
+    logo: experience-logos/bipp.png
+    company: 'Baker Institute for Public Policy, McNair Center'
+    company_url: 'https://www.bakerinstitute.org/'
+    location: 'Houston, Texas'
+    date_start: '2018-05-30'
+    date_end: '2018-08-07'
+    description: >-
+      Under the direction of Dr. Ed Egan, I helped create a comprehensive
+      database of startups and accelerators in the United States at the [Baker
+      Institute for Public Policy](https://www.bakerinstitute.org/). I matched
+      and organized 13,000 companies from a spreadsheet to public data using SQL
+      and Excel. I assisted in the strategic development of web crawlers to
+      detect and classify the industry of a company.
+        
+design:
+  background: {}
+
 
 design:
-  columns: '2'
   background:
     image: garden_math.jpg
     image_darken: 0.35
@@ -57,5 +87,5 @@ design:
     image_size: cover
     text_color_light: true
   spacing:
-    padding: ["30px", "30px", "0", "20px"]
+    padding: ["20px", "5px", "5px", "60px"]
 ---

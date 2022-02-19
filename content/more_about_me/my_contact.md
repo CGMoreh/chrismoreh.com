@@ -3,7 +3,7 @@ widget: my_contact
 
 
 # Activate this widget? true/false
-active: true
+active: false
 
 # This file represents a page section.
 headless: true

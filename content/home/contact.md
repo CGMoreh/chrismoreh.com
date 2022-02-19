@@ -37,6 +37,6 @@ design:
     text_color_light: true
   spacing:
     # Customize the section spacing. Order is top, right, bottom, left.
-    padding: ["10px", "0px", "0px", "0px"]
+    padding: ["25px", "1px", "35px", "1px"]
 ---
 

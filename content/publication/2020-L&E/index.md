@@ -61,7 +61,7 @@ url_slides: ""
 url_poster: ""
 url_code: ""
 author_notes: []
-tags: []
+tags: [Discourse, Education]
 projects: []
 # publishDate: 2017-01-01T00:00:00Z
 

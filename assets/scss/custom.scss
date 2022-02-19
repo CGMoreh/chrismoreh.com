@@ -337,3 +337,183 @@ div.alert > div:first-child::before {
 	animation-delay: 4s;
 	}
 }
+
+
+/*******************************
+* Other stuff
+*******************************/
+
+/* Underline links in dark sections to separate them from text 
+.home-section.dark a:not(.btn):not(.hero-cta-alt) {
+  text-decoration: underline dotted;
+  color: #c1a037}
+  */
+
+/******************************
+* From Connor Rothschild
+*******************************/
+
+$dark-grey: #343434;
+$light-grey: #E3E3E5;
+
+
+/* icons */
+#profile {
+  .network-icon {
+    li {
+      a { color: white !important;}
+    }
+  }
+}
+
+
+/* buttons */
+.btn {
+  border-radius: 5px;
+  margin: 2.5px;
+  padding: .3rem;
+  line-height: 1;
+  -webkit-box-shadow: 3px 3px 0 0 $dark-grey;
+          box-shadow: 3px 3px 0 0 $dark-grey;
+  color: $dark-grey;
+  border-color: $sta-primary-dark;
+  background-color: white !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; 
+  
+    &:focus {
+    -webkit-box-shadow: 3px 3px 0 0 white !important;
+            box-shadow: 3px 3px 0 0 white !important;
+    color: $sta-primary-dark;
+    }
+  
+  &:hover {
+    background-color: $light-grey !important;
+    color: $sta-primary-dark;
+    }
+}
+
+.btn-toolbar .btn.active  {
+  background-color: $sta-primary-dark !important;
+  -webkit-box-shadow: 3px 3px 0 0 white !important;
+          box-shadow: 3px 3px 0 0 white !important;
+}
+
+.btn-links .btn {
+  padding: .3rem;
+}
+
+.btn-links .btn:hover {
+  padding: .3rem;
+  color: $sta-primary-dark;
+  border-color: $sta-primary-dark;
+  background-color: $light-grey !important;
+}
+
+
+/* link styling */
+.card-text p a, .powered-by a {
+  text-decoration: none;
+  padding: 2px;
+  border-radius: 3px;
+  background: $light-grey;
+}
+
+.card-text p a:hover, .powered-by a:hover { 
+   background: black;
+   color: white;
+}
+
+/* blog formatting */
+.hljs {
+  background: $light-grey !important;
+}
+
+
+
+/* awards and experience cards */
+.card.experience.course.card-title {
+  font-size: 1rem;
+}
+
+.card-subtitle.my-0.article-metadata,
+.card .text-muted.exp-meta {
+  font-size: .8rem;
+  letter-spacing: 0 !important;
+}
+
+.course .card-body .card-text,
+.experience .card-body .card-text {
+  padding: .8rem 0.5rem .8rem 0 !important;
+}
+
+
+//add images to experience cards
+.flex-w-experience-image-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.flex-w-experience-text {
+  display: flex;
+  flex-direction: column;
+}
+.experience-image {
+  max-width: 60px;
+  margin-right: 10px;
+}
+
+
+//custom css for awards
+#accomplishments {
+  .margin-top {
+    margin-top: 20px;
+  }
+  .vertical-center {
+    justify-content: center;
+  }
+  .card-title {
+    font-size: 1.4rem;
+  }
+  .card-subtitle {
+    font-size: 1.2rem;
+  }
+  .card {
+
+    .init-hidden {
+        p {
+          max-height: 0;
+          transition: max-height 1s ease-out;
+          overflow: hidden;
+          margin-bottom: 0 !important;
+        }
+        
+        &.card-text {
+          padding: 0 !important;
+        }
+      }
+    
+    &:hover {
+    .init-hidden p {
+      max-height: 1000px;
+      transition: max-height 1s ease-in;
+    }
+  }
+}
+}
+
+/* article styling */
+.article {
+  p a {
+  text-decoration: none;
+  padding: 3px;
+  border-radius: 3px;
+  background: $light-grey;
+}
+
+ p a:hover { 
+   background: black;
+   color: white;
+ }
+}
