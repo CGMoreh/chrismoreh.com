@@ -1,6 +1,6 @@
 ---
 title: Chris Moreh
-#role: Lecturer in Sociology
+role: Lecturer in Sociology
 avatar_filename: avatar.jpg
 
 bio: "Political sociologist researching migration and mobility, citizenship, ethnicity, urban heritage, and political discourse."
@@ -11,6 +11,14 @@ interests:
    - Mixed methods research
    - Teaching statistics
    - Languages
+
+organizations:
+  - name: Newcastle University
+    url: https://www.ncl.ac.uk/gps/about/about-sociology/
+    
+  - name: Visiting Research Fellow
+  - name: ESRC Centre for Population Change, University of Southampton
+    url: https://www.southampton.ac.uk/socsci/about/staff/cm1d15.page
 
 
 education:

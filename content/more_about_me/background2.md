@@ -4,13 +4,13 @@
 widget: blank
 
 # Activate this widget? true/false
-active: false
+active: true
 
 # This file represents a page section.
 headless: true
 
 # Order that this section appears on the page.
-weight: 40
+weight: 80
 
 title: 
 subtitle:
@@ -25,7 +25,7 @@ design:
     image_size: cover
     text_color_light: false
   spacing:
-    padding: ["100px", "200px", "100px", "200px"] # Order is top, right, bottom, left.
+        padding: ["10px", "200px", "100px", "200px"] # Order is top, right, bottom, left.
 
 advanced:
  # Custom CSS. 

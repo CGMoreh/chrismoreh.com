@@ -30,6 +30,8 @@
       <img class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}" src="{{ $avatar_image.RelPermalink }}" alt="{{$person_page.Title}}">
       {{ end }}
 
+<!-- REMOVE Name, Role and Institutions
+
       <div class="portrait-title">
         <h2>{{ $person_page.Title }}</h2>
         {{ with $person.role }}<h3>{{ . | markdownify | emojify }}</h3>{{ end }}
@@ -42,6 +44,7 @@
         </h3>
         {{ end }}
       </div>
+-->
 
       <ul class="network-icon" aria-hidden="true">
         {{ range $person.social }}

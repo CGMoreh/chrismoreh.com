@@ -5,6 +5,8 @@ body {
   margin-top: 70px !important;
 }
 
+/* Navigation bar settings */
+
 .navbar {
   min-height: 70px !important;
   height: 70px;
@@ -68,14 +70,11 @@ a.nav-link:hover:after {
   width: 70%;
 }
 
-/*----------------------------------*/
-
 
 
 /*************************************************
  *  Navigation bar
  **************************************************/
-
 
 
 .dropdown-menu,
@@ -254,7 +253,9 @@ a.hero-cta-alt:hover {
 }
 
 
-/* Callout box settings */
+/**************************************************
+**      Callout box settings **
+**************************************************/
 
 .article-style aside p,
 div.alert > div {
@@ -265,9 +266,11 @@ div.alert > div {
   margin-left: 1.7rem;
   margin-top: 0;
   margin-bottom: 0;
-}
+  } 
 
-/* I also changed the color of the icon & its top & left positions */ 
+
+/* The color of the icon & its top & left positions */ 
+
 .article-style aside p::before,
 div.alert > div:first-child::before {
   position: absolute;
@@ -282,7 +285,7 @@ div.alert > div:first-child::before {
   text-align: left;
 }
 
-/* You can edit the borders and backgrounds here */
+/* The borders and backgrounds here */
 .article-style aside,
 .alert-note {
   color: #26547C;
@@ -297,9 +300,9 @@ div.alert > div:first-child::before {
 }
 
 
-/*****************
-* ANIMATION ON MAIN ABOUT PAGE *
-******************/
+/*********************************************
+**   ANIMATION ON MAIN ABOUT PAGE **
+*********************************************/
 
 #about {
 	@keyframes slide-up {
@@ -331,10 +334,10 @@ div.alert > div:first-child::before {
 	animation-delay: 0ms;
 	}
 
-	.moreabout-button{
+	.moreabout-button {
 	opacity: 0;
 	animation: fade-in 3s forwards;
-	animation-delay: 4s;
+	animation-delay: 3.5s;
 	}
 }
 
@@ -343,31 +346,43 @@ div.alert > div:first-child::before {
 * Other stuff
 *******************************/
 
-/* Underline links in dark sections to separate them from text 
-.home-section.dark a:not(.btn):not(.hero-cta-alt) {
-  text-decoration: underline dotted;
-  color: #c1a037}
-  */
 
 /******************************
 * From Connor Rothschild
 *******************************/
 
-$dark-grey: #343434;
-$light-grey: #E3E3E5;
+$dark-grey: #505050;
+$light-grey: #efefef;
 
 
-/* icons */
-#profile {
-  .network-icon {
+/**************************************************
+**  SOCIAL MEDIA ICONS AND MAP LEAFLET LINKS     **
+* settings for the social media icons and link    *
+* text on the map, to have diffferent settings    *
+* compared to other hyperlinks in the text        *
+**************************************************/
+
+#profile .network-icon {
     li {
-      a { color: white !important;}
+      a { color: white !important;
+          background: none;
+      }
     }
   }
-}
+  
+
+#contact {
+.leaflet-touch .leaflet-bar, .leaflet-touch .leaflet-control-layers, .leaflet-touch .leaflet-control-attribution{
+      a { color: #700001;
+          background: white;
+        }
+    }
+ }   
+
 
 
 /* buttons */
+
 .btn {
   border-radius: 5px;
   margin: 2.5px;
@@ -391,6 +406,7 @@ $light-grey: #E3E3E5;
   &:hover {
     background-color: $light-grey !important;
     color: $sta-primary-dark;
+    border-color: #700001;
     }
 }
 
@@ -407,23 +423,73 @@ $light-grey: #E3E3E5;
 .btn-links .btn:hover {
   padding: .3rem;
   color: $sta-primary-dark;
-  border-color: $sta-primary-dark;
+  border-color: #700001;
   background-color: $light-grey !important;
 }
 
 
 /* link styling */
+
 .card-text p a, .powered-by a {
   text-decoration: none;
   padding: 2px;
-  border-radius: 3px;
+  border-radius: 7px;
   background: $light-grey;
 }
 
 .card-text p a:hover, .powered-by a:hover { 
-   background: black;
-   color: white;
+   background: rgba(112, 0, 1, 0.6);
+   color: $light-grey;
 }
+
+
+/* Underline links in dark sections to separate them from text */
+
+/*
+.home-section.dark a:not(.btn):not(.hero-cta-alt)  {
+  text-decoration: none;
+  color: #c1a037;
+  padding: 3px;
+  border-radius: 3px;
+  background: $dark-grey;
+  }
+*/  
+
+.wg-contact.dark {
+  a:not(.btn):not(.hero-cta-alt) {
+  text-decoration: none;
+  color: #c1a037;
+  font-weight: bold;
+  }
+  
+  a:not(.btn):not(.hero-cta-alt):hover {
+  text-decoration: underline;
+  color: #c1a037;
+  font-weight: bold;
+  }
+}
+
+
+.wg-about.dark {
+    a:not(.btn):not(.hero-cta-alt)  {
+    text-decoration: none;
+    color: $light-grey;
+    padding: 1.5px;
+    border-radius: 7px;
+    background: rgba(255, 255, 255, 0.2);
+    }
+  
+    a:not(.btn):not(.hero-cta-alt):hover  {
+    text-decoration: underline;
+    color: #c1a037;
+    padding: none;
+    border-radius: none;
+    background: none;
+    font-weight: bold;
+    }
+ }  
+  
+
 
 /* blog formatting */
 .hljs {
@@ -449,7 +515,8 @@ $light-grey: #E3E3E5;
 }
 
 
-//add images to experience cards
+/* add images to experience cards */
+
 .flex-w-experience-image-container {
   display: flex;
   flex-direction: row;
@@ -465,7 +532,8 @@ $light-grey: #E3E3E5;
 }
 
 
-//custom css for awards
+/* custom css for awards */
+
 #accomplishments {
   .margin-top {
     margin-top: 20px;
@@ -513,7 +581,7 @@ $light-grey: #E3E3E5;
 }
 
  p a:hover { 
-   background: black;
-   color: white;
+   background: $dark-grey;
+   color: #c1a037;
  }
 }
