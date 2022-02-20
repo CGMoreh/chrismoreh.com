@@ -11,7 +11,8 @@ headless: true
 # Order that this section appears on the page.
 weight: 130
 
-title: 'Recent & Upcoming Talks'
+# Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
+title: 'Recent & Upcoming &shy;Talks'
 subtitle:
 
 content:

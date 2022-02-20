@@ -6,12 +6,13 @@ body {
 }
 
 /* Navigation bar settings */
+/* check: https://github.com/dcossyleon/blogdown_desiree/blob/master/assets/scss/custom.scss#L24 */
 
 .navbar {
   min-height: 70px !important;
   height: 70px;
   background-color: #fcfcfc33;
-  box-shadow: 0 0 30px rgba(252, 252, 252, 0.56);
+  box-shadow: 0 0 40px rgba(252, 252, 252, 0.66);
   background-image: linear-gradient(to bottom, #fcfcfc, #fcfcfc, #fcfcfcfa, #fcfcfcea, #fcfcfcda, #fcfcfcca, #fcfcfcba, #fcfcfcaa, #fcfcfc76, #fcfcfc23) !important;
 }
 
@@ -36,12 +37,12 @@ body {
 
 /*----NAV LINK HOVER ANIMATION -----*/
 
-.nav-link:hover {
+.nav-link:hover {   /* Menu link colour on hover */
   color: rgba(150, 7, 7, 1) !important;
 }
 
 
-/* stroke */
+/* Underline stroke */
 
 a.nav-link,
 a.nav-link:after,
@@ -68,6 +69,11 @@ a.nav-link:after {
 
 a.nav-link:hover:after {
   width: 70%;
+}
+
+/* Increasse the text size of active titles on nav bar */
+.navbar .navbar-nav .nav-link.active {
+  transform: scale(1.2);
 }
 
 
@@ -362,14 +368,12 @@ $light-grey: #efefef;
 * compared to other hyperlinks in the text        *
 **************************************************/
 
-#profile .network-icon {
-    li {
+#profile .network-icon li {
       a { color: white !important;
           background: none;
       }
     }
-  }
-  
+
 
 #contact {
 .leaflet-touch .leaflet-bar, .leaflet-touch .leaflet-control-layers, .leaflet-touch .leaflet-control-attribution{
@@ -409,6 +413,8 @@ $light-grey: #efefef;
     border-color: #700001;
     }
 }
+
+
 
 .btn-toolbar .btn.active  {
   background-color: $sta-primary-dark !important;
@@ -492,13 +498,19 @@ $light-grey: #efefef;
 
 
 /* blog formatting */
-.hljs {
+
+.hljs {   /* code font size */
   background: $light-grey !important;
+  font-size: 16px;
+  padding: 1rem;
 }
 
 
 
+
+
 /* awards and experience cards */
+
 .card.experience.course.card-title {
   font-size: 1rem;
 }
@@ -584,4 +596,23 @@ $light-grey: #efefef;
    background: $dark-grey;
    color: #c1a037;
  }
+}
+
+
+/* TITLE headings */
+
+#posts, #experience, #accomplishments, #projects {
+  h1 {
+    padding-left: 3rem;
+    font-size: 3rem;
+    color: #700001 !important;
+    font-weight: bold;
+  }
+
+ .dark h1 {
+    padding-left: 3rem;
+    font-size: 3rem;
+    color: white !important;
+    font-weight: bold;
+  }
 }

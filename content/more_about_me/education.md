@@ -31,6 +31,7 @@ experience:
     location: Newcastle-upon-Tyne, UK
     date_start: '2011-10-01'
     date_end: '2015-10-10'
+    logo: experience-logos/bipp.png
     description:
         
   - title: MA
@@ -40,7 +41,15 @@ experience:
     location: Budapest, Hungary
     date_start: '2010-07-01'
     date_end: '2011-07-01'
-    description: courses taken
+    description: "courses taken
+    
+    
+      See media [here](https://pudding.cool/process/pudding-cup-2020/).
+
+      Find the project
+      [here](https://connorrothschild.github.io/cudi-hums/).
+      \  "
+ 
     
   - title: BA and MA (Egyetemi Diploma)
     company: Eötvös Loránd Tudományegyetem (ELTE)
