@@ -35,4 +35,3 @@ design:
 
 ---
 
-I am a political sociologist studying migration, ethnicity and nationalism. In various side-projects I have also explored the social implications of urban heritage, public discourse and international education. My approach to research is comparative, interdisciplinary and multimethodological. In my work I combine participant observation, qualitative interviewing, archival research, survey methods and statistical modelling. I'm passionate about open social science and storytelling, and I'm learning about probabilistic reasoning and Bayesian inference.

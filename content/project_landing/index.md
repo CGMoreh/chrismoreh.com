@@ -1,6 +1,8 @@
 ---
-title: "Projects"  # Add a page title.
-summary: "My research projects"  # Add a page description.
+title: Projects
+
+summary: "My research projects" 
+
 date: ""  # Add today's date.
-type: "widget_page"  # Page type is a Widget Page
+type: widget_page
 ---

@@ -1,12 +1,11 @@
 
-/* Whole document: */
-
-body {
-  margin-top: 70px !important;
-}
-
-/* Navigation bar settings */
+/*********************************************
+-------   NAVBAR   ------- 
+*********************************************/
 /* check: https://github.com/dcossyleon/blogdown_desiree/blob/master/assets/scss/custom.scss#L24 */
+
+
+/*---- NAVBAR BOX ----*/
 
 .navbar {
   min-height: 70px !important;
@@ -16,72 +15,24 @@ body {
   background-image: linear-gradient(to bottom, #fcfcfc, #fcfcfc, #fcfcfcfa, #fcfcfcea, #fcfcfcda, #fcfcfcca, #fcfcfcba, #fcfcfcaa, #fcfcfc76, #fcfcfc23) !important;
 }
 
-/* Make mobile navbar skinnier */
-
+  /* Make mobile navbar skinnier */
   @media screen and (max-width: 768px) {
     body {
       margin-top: 70px !important;
     }
      .navbar {
       min-height: 70px !important;
+      }
+    }
+
+  /*make drop down menu more opaque on mobile */
+  @media (max-width: 991.98px) { 
+  .navbar-collapse {
+    background-color: #f7f7f7d9 !important;
     }
   }
 
-/*make drop down menu more opaque on mobile */
-
-@media (max-width: 991.98px) { 
-  .navbar-collapse {
-    background-color: #f7f7f7d9 !important;
-  }
-}
-
-/*----NAV LINK HOVER ANIMATION -----*/
-
-.nav-link:hover {   /* Menu link colour on hover */
-  color: rgba(150, 7, 7, 1) !important;
-}
-
-
-/* Underline stroke */
-
-a.nav-link,
-a.nav-link:after,
-a.nav-link:before {
-  transition: all .5s;
-}
-
-a.nav-link {
-  position: relative;
-}
-
-a.nav-link:after {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  width: 0%;
-  content: '.'; /* make invisible, dot beneath links */
-  color: transparent;
-  background: rgba(150, 7, 7, 1);
-  height: 2px;
-}
-
-a.nav-link:hover:after {
-  width: 70%;
-}
-
-/* Increasse the text size of active titles on nav bar */
-.navbar .navbar-nav .nav-link.active {
-  transform: scale(1.2);
-}
-
-
-
-/*************************************************
- *  Navigation bar
- **************************************************/
-
+/*---- NAVBAR NORMAL TEXT SIZE ----*/
 
 .dropdown-menu,
 nav#navbar-main li.nav-item {
@@ -89,17 +40,59 @@ nav#navbar-main li.nav-item {
   font-weight: bold;
 }
 
+/*---- NAVBAR ACTIVE TEXT SIZE ----*/
+.navbar .navbar-nav .nav-link.active {
+  transform: scale(1.2);
+}
 
 
 
-/*************************************************
- *  Footer
- **************************************************/
+/*---- NAV LINK HOVER ANIMATION -----*/
+
+.nav-link:hover {   /* Menu link colour on hover */
+  color: rgba(150, 7, 7, 1) !important;
+}
+
+/* Underline stroke */
+
+  a.nav-link,
+  a.nav-link:after,
+  a.nav-link:before {
+    transition: all .5s;
+  }
+  
+  a.nav-link {
+    position: relative;
+  }
+  
+  a.nav-link:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.'; /* make invisible, dot beneath links */
+    color: transparent;
+    background: rgba(150, 7, 7, 1);
+    height: 2px;
+  }
+  
+  a.nav-link:hover:after {
+    width: 70%;
+  }
+
+
+
+
+/*********************************************
+-------   FOOTER   ------- 
+*********************************************/
 
 footer {
-  margin: 0.5rem 0 0;
+  margin: 0.5rem 0 0 0;
   padding: 2px 0;
-  height: 20px;
+  height: 3rem;
   width: 100%;
 }
 
@@ -108,16 +101,131 @@ footer p {
   text-align: center;
 }
 
-site-footer,
-footer a.back-to-top i {
-  color: rgba(10,10,20,0.9);
+
+
+/*********************************************
+-------   MAIN ABOUT PAGE ------- 
+*********************************************/
+
+#about {
+  
+ /*---- AVATAR ----*/
+
+  .avatar {
+    width: 310px;
+    height: 370px;
+    margin: 0 auto;
+    object-fit: cover;
+    }
+
+  /* Use smaller avatar size in About widget on small devices */
+  @include media-breakpoint-down(sm) {
+  .wg-about .avatar {
+    width: 200px;
+    height: 200px;
+    }
+   }
+
+  .avatar-circle {
+    border-radius: 12%;
+    }
+
+  .network-icon {
+    margin-top: 10px;
+    }
+
+ /*---- SOCIAL MEDIA ICONS ----*/
+ 
+  .network-icon li {
+    padding: 0px;
+    margin-right: 0px;
+    list-style: none;
+    flex: 0 0 25.1%;
+    }
+  
+  .network-icon li:hover {
+    transform: scale(1.3);
+    }
+  
+  .big-icon { /* default icon size */
+    font-size: 2rem;
+    }
+  
+  .network-icon li a { 
+      background: none;
+      }
+
+ /*---- CONTENT SECTION TITLE ----*/
+ 
+  .biography-title {
+    font-size: 45px;
+  	font-weight: bold;
+  	text-shadow: 2px 2px 2px #ababab;
+  	padding-top: 0.4rem;
+  	}   
+ 
+ /*---- CONTENT ANIMATION ----*/
+  
+  /* keyframes animation definitions */ 
+  	@keyframes slide-up {
+  		0% {
+     transform: translate3d(5ch,10in, 6em);
+  		}
+  		100% {
+      transform: translate3d(0);
+  		}
+  	}
+  
+  	@keyframes fade-in {
+  	  0% {
+  		opacity: 0;
+  	  }
+  	  100% {
+  		opacity: 1;
+  	  }
+  	}
+
+  .main-content {
+  	animation: slide-up 2s cubic-bezier(.33,1,.68,1) forwards;
+  	animation-delay: 0ms;
+  	}
+
+	.moreabout-button {
+  	opacity: 0;
+  	animation: fade-in 3s forwards;
+  	animation-delay: 3.5s;
+  	}
 }
 
-.dark site-footer,
-.dark footer a.back-to-top i,
-.dark .docs .body-footer {
-  color: rgba(255,255,255,0.54);
+
+
+
+/*********************************************
+-------   CONTACT WIDGET LINKS   ------- 
+*********************************************/
+
+#contact {
+  .leaflet-touch .leaflet-bar, .leaflet-touch .leaflet-control-layers,     .leaflet-touch .leaflet-control-attribution {
+    a { color: #700001;
+        background: white;
+      }
+    }
 }
+
+.wg-contact.dark {
+  a:not(.btn):not(.hero-cta-alt) {
+  text-decoration: none;
+  color: #c1a037;
+  font-weight: bold;
+  }
+  
+  a:not(.btn):not(.hero-cta-alt):hover {
+  text-decoration: underline;
+  color: #c1a037;
+  font-weight: bold;
+  font-size: 1rem;
+  }
+} 
 
 
 /*************************************************
@@ -214,7 +322,7 @@ a.hero-cta-alt:hover {
 
 .btn {
   padding: .5rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
   line-height: .5;
   border-radius: .3rem;
 }
@@ -228,6 +336,42 @@ a.hero-cta-alt:hover {
   padding: 5px .4rem 5px .4rem;
   font-size: .7rem;
   border-radius: .2rem;
+}
+
+
+/*************************************************
+ *  Toolbar Buttons - as in Projects toolbar
+ **************************************************/
+
+.btn-toolbar .btn {
+  font-size: 0.9rem;
+  padding: 8px 10px 8px;
+  border: 0.5px solid #700001;
+  box-shadow: none;
+}
+
+.btn-toolbar .btn:first-child {
+  border-radius: 6px 0 0 6px;
+}
+
+.btn-toolbar .btn:last-child {
+  border-radius: 0 6px 6px 0;
+}
+
+.btn-toolbar .btn.btn-primary:hover,
+.btn-toolbar .btn.btn-primary:focus {
+  background-color: #700001 !important;
+}
+
+.btn-toolbar .btn.btn-primary:active,
+.btn-toolbar .btn.btn-primary.active {
+  background-color: #700001 !important;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: none;
 }
 
 
@@ -306,48 +450,6 @@ div.alert > div:first-child::before {
 }
 
 
-/*********************************************
-**   ANIMATION ON MAIN ABOUT PAGE **
-*********************************************/
-
-#about {
-	@keyframes slide-up {
-		0% {
-    transform: translate3d(5ch,10in, 6em);
-		}
-		100% {
-    transform: translate3d(0);
-		}
-	}
-
-	@keyframes fade-in {
-	  0% {
-		opacity: 0;
-	  }
-	  100% {
-		opacity: 1;
-	  }
-	}
-
-  .biography-title {
-    font-size: 50px;
-	font-weight: bold;
-	text-shadow: 2px 2px 2px #ababab;
-	}
-  
-  .main-content {
-	animation: slide-up 2s cubic-bezier(.33,1,.68,1) forwards;
-	animation-delay: 0ms;
-	}
-
-	.moreabout-button {
-	opacity: 0;
-	animation: fade-in 3s forwards;
-	animation-delay: 3.5s;
-	}
-}
-
-
 /*******************************
 * Other stuff
 *******************************/
@@ -361,27 +463,6 @@ $dark-grey: #505050;
 $light-grey: #efefef;
 
 
-/**************************************************
-**  SOCIAL MEDIA ICONS AND MAP LEAFLET LINKS     **
-* settings for the social media icons and link    *
-* text on the map, to have diffferent settings    *
-* compared to other hyperlinks in the text        *
-**************************************************/
-
-#profile .network-icon li {
-      a { color: white !important;
-          background: none;
-      }
-    }
-
-
-#contact {
-.leaflet-touch .leaflet-bar, .leaflet-touch .leaflet-control-layers, .leaflet-touch .leaflet-control-attribution{
-      a { color: #700001;
-          background: white;
-        }
-    }
- }   
 
 
 
@@ -395,7 +476,7 @@ $light-grey: #efefef;
   -webkit-box-shadow: 3px 3px 0 0 $dark-grey;
           box-shadow: 3px 3px 0 0 $dark-grey;
   color: $dark-grey;
-  border-color: $sta-primary-dark;
+  border-color: #700001;
   background-color: white !important;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -409,7 +490,7 @@ $light-grey: #efefef;
   
   &:hover {
     background-color: $light-grey !important;
-    color: $sta-primary-dark;
+    color: #700001;
     border-color: #700001;
     }
 }
@@ -428,7 +509,7 @@ $light-grey: #efefef;
 
 .btn-links .btn:hover {
   padding: .3rem;
-  color: $sta-primary-dark;
+  color: #700001;
   border-color: #700001;
   background-color: $light-grey !important;
 }
@@ -461,19 +542,7 @@ $light-grey: #efefef;
   }
 */  
 
-.wg-contact.dark {
-  a:not(.btn):not(.hero-cta-alt) {
-  text-decoration: none;
-  color: #c1a037;
-  font-weight: bold;
-  }
-  
-  a:not(.btn):not(.hero-cta-alt):hover {
-  text-decoration: underline;
-  color: #c1a037;
-  font-weight: bold;
-  }
-}
+
 
 
 .wg-about.dark {
@@ -491,7 +560,7 @@ $light-grey: #efefef;
     padding: none;
     border-radius: none;
     background: none;
-    font-weight: bold;
+    font-weight: none;
     }
  }  
   
@@ -509,42 +578,9 @@ $light-grey: #efefef;
 
 
 
-/* awards and experience cards */
-
-.card.experience.course.card-title {
-  font-size: 1rem;
-}
-
-.card-subtitle.my-0.article-metadata,
-.card .text-muted.exp-meta {
-  font-size: .8rem;
-  letter-spacing: 0 !important;
-}
-
-.course .card-body .card-text,
-.experience .card-body .card-text {
-  padding: .8rem 0.5rem .8rem 0 !important;
-}
 
 
-/* add images to experience cards */
-
-.flex-w-experience-image-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-.flex-w-experience-text {
-  display: flex;
-  flex-direction: column;
-}
-.experience-image {
-  max-width: 60px;
-  margin-right: 10px;
-}
-
-
-/* custom css for awards */
+/* custom css for Accomplishments */
 
 #accomplishments {
   .margin-top {
@@ -583,48 +619,100 @@ $light-grey: #efefef;
 }
 }
 
+
+
+/* awards and experience cards */
+
+
+
+
+/* add images to experience cards */
+
+.flex-w-experience-image-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.flex-w-experience-text {
+  display: flex;
+  flex-direction: column;
+}
+.experience-image {
+  max-width: 60px;
+  margin-right: 10px;
+}
+
+
+
 #experience, #education {
-    .card {
-
-    .init-hidden {
-        p {
-          max-height: 0;
-          transition: max-height 1s ease-out;
-          overflow: hidden;
-          margin-bottom: 0 !important;
-        }
-        
-        &.card-text {
-          padding: 0 !important;
-        }
-      }
-    
-    &:hover {
-    .init-hidden p {
-      max-height: 1000px;
-      transition: max-height 1s ease-in;
+    .margin-top {
+      margin-top: 20px;
     }
-  }
+    .vertical-center {
+      justify-content: center;
+    }
+    .card-title {
+      font-size: 1.3rem;
+    }
+    .card-subtitle {
+      font-size: 1.2rem;
+    }
+    .card .text-muted.exp-meta {
+      font-size: 1.1rem;
+      letter-spacing: 0 !important;
+    }
+
+    .card {
+      .init-hidden {
+          p {
+            max-height: 0;
+            transition: max-height 2s ease-out;
+            overflow: hidden;
+            margin-bottom: 0 !important;
+          }
+          
+          &.card-text {
+            padding: 0 !important;
+          }
+        }
+      
+      &:hover {
+      .init-hidden {
+        p {
+        max-height: 1000px;
+        transition: max-height 2s ease-in;
+          }
+        p a {
+        text-decoration: none;
+        color: $light-grey;
+        padding: 1.5px;
+        border-radius: 7px;
+        background: rgba(255, 255, 255, 0.2);
+        }  
+      }
+      }
+    }
 }
 
-}
 
+/* Styling of hyperlink in texts */
 
-
-/* article styling */
-.article {
-  p a {
+p a {
   text-decoration: none;
+  color: #700001;
   padding: 3px;
   border-radius: 3px;
   background: $light-grey;
 }
 
- p a:hover { 
-   background: $dark-grey;
+p a:hover { 
+   text-decoration: underline;
    color: #c1a037;
- }
-}
+   padding: none;
+   border-radius: none;
+   background: none;
+   font-weight: none;
+    }
 
 
 /* TITLE headings */
@@ -644,3 +732,5 @@ $light-grey: #efefef;
     font-weight: bold;
   }
 }
+
+

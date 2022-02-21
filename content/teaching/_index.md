@@ -1,12 +1,16 @@
 ---
-title: Teaching
-type: "widget_page"
+#title: Teaching
+type: blank
 
 header:
   caption: ""
   image: ""
 
 headless: false  
+
+design:
+  columns: "2"
+
 ---
 
 ### Selected methodology courses

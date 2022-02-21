@@ -115,15 +115,15 @@ edit_page:
     book: false
 
 show_related:
-  book: true
+  book: false
   page: false
-  post: true
-  project: true
-  publication: true
-  event: true
+  post: false
+  project: false
+  publication: false
+  event: false
 
 # Display next/previous section pager? (true/false)
-section_pager: false
+section_pager: true
 docs_section_pager: true
 
 #########################################################################################
@@ -144,6 +144,7 @@ copyright_license:
   share_alike: true
   allow_commercial: false
   notice: 'This work is licensed under {license}'
+
 abstract_length: 135
 
 plugins_js: []

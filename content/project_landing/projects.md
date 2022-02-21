@@ -1,31 +1,50 @@
 ---
-widget: portfolio
-headless: true
-#active: true
-#weight: 65
-title: 
-subtitle: 
+active: true
 
-# Page type to display; name of folder with the right md pages go here
-  
+# An instance of the Portfolio widget.
+# Documentation: https://wowchemy.com/docs/page-builder/
+widget: portfolio
+
+# This file represents a page section.
+headless: true
+
+# Order that this section appears on the page.
+weight: 65
+
+title: Projects
+subtitle: ''
+
 content:
+  # Page type to display. E.g. project.
   page_type: project
 
-design:
-  columns: "1"
-  view: 5
-  flip_alt_rows: false
-  background:
-    image: garden_math.jpg
-    image_darken: 0.55
-    image_parallax: true
-    image_position: center
-    image_size: cover
-    text_color_light: true
-  spacing:
-    padding: ["30px", "30px", "20px", "20px"]
+  # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
+  filter_default: 0
 
-advanced:
-  css_style: ""
-  css_class: ""
+  # Filter toolbar (optional).
+  # Add or remove as many filters (`filter_button` instances) as you like.
+  # To show all items, set `tag` to "*".
+  # To filter by a specific tag, set `tag` to an existing tag name.
+  # To remove the toolbar, delete the entire `filter_button` block.
+  filter_button:
+  - name: All
+    tag: '*'
+  - name: Deep Learning
+    tag: Deep Learning
+  - name: Other
+    tag: Demo
+
+design:
+  # Choose how many columns the section has. Valid values: '1' or '2'.
+  columns: '1'
+
+  # Toggle between the various page layout types.
+  #   1 = List
+  #   2 = Compact
+  #   3 = Card
+  #   5 = Showcase
+  view: 5
+
+  # For Showcase view, flip alternate rows?
+  flip_alt_rows: false
 ---
