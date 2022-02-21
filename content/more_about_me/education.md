@@ -25,59 +25,47 @@ date_format: Jan 2006
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
   - title: PhD
+    logo: experience-logos/socom.png
     company: Northumbria University
     company_url: ''
-    company_logo: org-gc
     location: Newcastle-upon-Tyne, UK
     date_start: '2011-10-01'
     date_end: '2015-10-10'
-    logo: experience-logos/bipp.png
-    description:
+    description: "Some text.
+    
+    
+    More text.
+    \  "
         
   - title: MA
+    logo: experience-logos/socom.png
     company: Central European University
     company_url: ''
-    company_logo: org-x
     location: Budapest, Hungary
     date_start: '2010-07-01'
     date_end: '2011-07-01'
-    description: "courses taken
+    description: "Through a fellowship with [Coding It Forward](https://www.codingitforward.com/), I worked as a data science intern with the US Special Operations Command. I assisted in the creation of a machine learning model for predictive maintenance on CV-22 helicopters to reduce downtime & improve readiness. 
     
     
-      See media [here](https://pudding.cool/process/pudding-cup-2020/).
-
-      Find the project
-      [here](https://connorrothschild.github.io/cudi-hums/).
+    I also built a fullstack web application from scratch that automates the process of verifying inventory data. The tool is expected to save roughly 2,500 man hours and $102,000 annually.
       \  "
- 
-    
   - title: BA and MA (Egyetemi Diploma)
+    logo: experience-logos/socom.png
     company: Eötvös Loránd Tudományegyetem (ELTE)
     company_url: ''
-    company_logo: org-x
     location: Budapest, Hungary
     date_start: '2005-09-01'
     date_end: '2010-07-01'
     description: courses taken
-    
-  - title: Erasmus exchange programme
-    company: Universidad de Granada
-    company_url: ''
-    company_logo: org-x
-    location: Granada, Spain
-    date_start: '2008-09-01'
-    date_end: '2009-01-01'
-    description: courses taken    
 
 design:
-  columns: '2'
   background:
     image: garden_math.jpg
-    image_darken: 6.35
+    image_darken: 0.35
     image_parallax: true
     image_position: center
     image_size: cover
-    text_color_light: false
+    text_color_light: true
   spacing:
-    padding: ["30px", "30px", "0", "20px"]
+    padding: ["20px", "5px", "5px", "60px"]
 ---

@@ -14,15 +14,11 @@ experience:
     location: 'Tampa, Florida'
     date_start: '2020-05-30'
     date_end: '2020-08-08'
-    description: >
-      Through a fellowship with [Coding It
-      Forward](https://www.codingitforward.com/), I worked as a data science
-      intern with the US Special Operations Command. I assisted in the creation
-      of a machine learning model for predictive maintenance on CV-22
-      helicopters to reduce downtime & improve readiness. I also built a
-      fullstack web application from scratch that automates the process of
-      verifying inventory data. The tool is expected to save roughly 2,500 man
-      hours and $102,000 annually.
+    description: "Through a fellowship with [Coding It Forward](https://www.codingitforward.com/), I worked as a data science intern with the US Special Operations Command. I assisted in the creation of a machine learning model for predictive maintenance on CV-22 helicopters to reduce downtime & improve readiness. 
+   
+    
+    I also built a fullstack web application from scratch that automates the process of verifying inventory data. The tool is expected to save roughly 2,500 man hours and $102,000 annually.
+    \  "
   - title: Associate Data Scientist
     logo: experience-logos/moksha.png
     company: Moksha Data
@@ -74,9 +70,6 @@ experience:
       and Excel. I assisted in the strategic development of web crawlers to
       detect and classify the industry of a company.
         
-design:
-  background: {}
-
 
 design:
   background:

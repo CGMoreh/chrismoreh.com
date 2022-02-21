@@ -85,7 +85,7 @@ a.nav-link:hover:after {
 
 .dropdown-menu,
 nav#navbar-main li.nav-item {
-  font-size: 17px;
+  font-size: 18px;
   font-weight: bold;
 }
 
@@ -583,6 +583,34 @@ $light-grey: #efefef;
 }
 }
 
+#experience, #education {
+    .card {
+
+    .init-hidden {
+        p {
+          max-height: 0;
+          transition: max-height 1s ease-out;
+          overflow: hidden;
+          margin-bottom: 0 !important;
+        }
+        
+        &.card-text {
+          padding: 0 !important;
+        }
+      }
+    
+    &:hover {
+    .init-hidden p {
+      max-height: 1000px;
+      transition: max-height 1s ease-in;
+    }
+  }
+}
+
+}
+
+
+
 /* article styling */
 .article {
   p a {
@@ -601,7 +629,7 @@ $light-grey: #efefef;
 
 /* TITLE headings */
 
-#posts, #experience, #accomplishments, #projects {
+#posts, #experience, #accomplishments, #projects, #education {
   h1 {
     padding-left: 3rem;
     font-size: 3rem;

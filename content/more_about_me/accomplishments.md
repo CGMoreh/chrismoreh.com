@@ -14,15 +14,11 @@ item:
     certificate_url: ""
     date_start: 2021-01-08
     date_end: ""
-    description: "Awarded winner (top 3) out of 130+ entries to the 2020 Pudding Cup, which is a contest for visual storytelling pieces. My piece explored the prevalence of hums in Kid Cudi's discography.
-    
-    
-      See media [here](https://pudding.cool/process/pudding-cup-2020/).
+    description: "Main text here.
 
-      Find the project
-      [here](https://connorrothschild.github.io/cudi-hums/).
+
+    Awarded winner (top 3) out of 130+ entries to the 2020 Pudding Cup, which is a contest for visual storytelling pieces. My piece explored the prevalence of hums in Kid Cudi's discography.
       \  "
-      
   - organization: RStudio, Inc.
     organization_url: https://rstudio.com/
     title: Honorable Mention, RStudio Table Contest
@@ -30,20 +26,10 @@ item:
     certificate_url: ""
     date_start: 2020-12-23
     date_end: ""
-    description:
-      "Received an honorable mention in the 2020 RStudio Table Contest
-      out of 80+ entries. My entry was a tutorial regarding the replication of a
-      table by the Economist, using an R package called reactable.
+    description: "Some text here.
+      
 
-
-      See media
-      [here](https://blog.rstudio.com/2020/12/23/winners-of-the-2020-rstudio-ta\
-      ble-contest/).
-
-      Find the project
-      [here](https://www.connorrothschild.com/post/economist-table-replication-\
-      using-reactable/).
-
+      A lot more text here.
       \  "
   - organization: Data to Knowledge Lab
     organization_url: https://d2k.rice.edu/
