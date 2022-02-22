@@ -2,7 +2,7 @@
 widget: experience
 headless: true
 active: true
-weight: 40
+weight: 30
 title: Employment
 subtitle: 
 date_format: Jan 2006

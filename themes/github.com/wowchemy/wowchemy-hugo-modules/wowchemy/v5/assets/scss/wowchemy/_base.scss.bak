@@ -24,7 +24,7 @@ html {
 
 body {
   font-family: inherit;
-  font-size: 1rem;
+  font-size: 2rem;
   line-height: inherit;
   color: inherit;
   background-color: $sta-background;
@@ -155,16 +155,16 @@ h6 {
   hyphens: manual;
 }
 h1 {
-  font-size: 1.8rem;
+  font-size: 2.25rem;
 }
 h2 {
   margin-top: 1rem;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
 }
 h3 {
   font-weight: 700;
   margin-top: 1.5rem;
-  font-size: 1.2rem;
+  font-size: 1.25rem;
 }
 h4,
 h5,

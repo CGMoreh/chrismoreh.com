@@ -45,8 +45,6 @@ superuser: true
 highlight_name: true
 ---
 
-<br>
-
 I'm a husband, father, and a political sociologist researching migration, ethnicity and nationalism. In various projects I have also explored the social implications of [urban heritage](/tag/heritage/), [public discourse](/tag/discourse/) and [international education](/tag/education/). My approach to research is comparative, interdisciplinary and multimethodological. In my work I combine participant observation, qualitative interviewing, archival research, survey methods and statistical modelling. I'm passionate about open social science and storytelling, and I'm learning about probabilistic reasoning and Bayesian inference. I am currently a Lecturer in Sociology at [Newcastle University (UK)](https://www.ncl.ac.uk/gps/about/about-sociology/), where I mainly teach research methods courses.
 
 This website is a platform to showcase my work, host my blog, and share my writings and data. If you would like to collaborate, please [contact me](/#contact) and share your ideas!

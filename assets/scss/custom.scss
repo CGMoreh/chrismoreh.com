@@ -1,3 +1,120 @@
+/*********************************************
+-------   OVERALL WEBSITE SETTINGS   ------- 
+*********************************************/
+
+/* Some color definitions */
+$dark-grey: #505050;
+$light-grey: #efefef;
+
+
+/* buttons */
+
+.btn {
+  border-radius: 5px;
+  margin: 2.5px;
+  padding: .3rem;
+  line-height: 1;
+  -webkit-box-shadow: 3px 3px 0 0 $dark-grey;
+          box-shadow: 3px 3px 0 0 $dark-grey;
+  color: $dark-grey;
+  border-color: $dark-grey;
+  background-color: white !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; 
+  
+    &:focus {
+    -webkit-box-shadow: 3px 3px 0 0 white !important;
+            box-shadow: 3px 3px 0 0 white !important;
+    color: $sta-primary-dark;
+    }
+  
+  &:hover {
+    background-color: $light-grey !important;
+    color: #700001;
+    border-color: #700001;
+    }
+}
+
+
+
+.btn-toolbar .btn.active  {
+  background-color: $sta-primary-dark !important;
+  -webkit-box-shadow: 3px 3px 0 0 white !important;
+          box-shadow: 3px 3px 0 0 white !important;
+}
+
+.btn-links .btn {
+  padding: .3rem;
+}
+
+.btn-links .btn:hover {
+  padding: .3rem;
+  color: #700001;
+  border-color: #700001;
+  background-color: $light-grey !important;
+}
+
+
+
+
+
+/* ---- Styling of hyperlink in texts ---- */
+
+p, {
+  a {
+    text-decoration: none;
+    color: #700001;
+    padding: 1.5px;
+    border-radius: 7px;
+    background: $light-grey;
+  }
+  
+  a:hover { 
+   text-decoration: none;
+   padding: none;
+   border-radius: none;
+   font-weight: none;
+   background: rgba(112, 0, 1, 0.6);
+   color: $light-grey
+  }
+}
+
+
+/* ---- Headings ---- */
+
+h1 {
+    padding-left: 0rem;
+    padding-bottom: 1rem;
+    font-size: 3rem;
+    color: #700001 !important;
+    font-weight: bold;
+    }
+h2 {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+}
+h3 {
+  font-weight: 700;
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+}
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.dark {
+  h1 {
+    color: white !important;
+  }
+}
+
+
+
 
 /*********************************************
 -------   NAVBAR   ------- 
@@ -44,8 +161,6 @@ nav#navbar-main li.nav-item {
 .navbar .navbar-nav .nav-link.active {
   transform: scale(1.2);
 }
-
-
 
 /*---- NAV LINK HOVER ANIMATION -----*/
 
@@ -158,12 +273,21 @@ footer p {
  /*---- CONTENT SECTION TITLE ----*/
  
   .biography-title {
-    font-size: 45px;
+    font-size: 3rem;
   	font-weight: bold;
+    color: white !important;
   	text-shadow: 2px 2px 2px #ababab;
-  	padding-top: 0.4rem;
+  	padding-top: 0.5rem;
+  	padding-bottom: 0.2rem;
   	}   
- 
+
+  .main-content {
+    padding-top: 0rem;
+    font-size: 1.004rem;
+    line-height: inherit;
+    color: inherit;
+    } 
+
  /*---- CONTENT ANIMATION ----*/
   
   /* keyframes animation definitions */ 
@@ -194,22 +318,45 @@ footer p {
   	opacity: 0;
   	animation: fade-in 3s forwards;
   	animation-delay: 3.5s;
+  	
   	}
+  	
+  .btn {
+  padding: 0.5rem;
+  font-size: 1.3rem;
+  -webkit-box-shadow: 0px 0px 0 0;
+          box-shadow: 0px 0px 0 0;
+  border-color: white;
+  background-color: white !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; 
+  &:hover {
+    background-color: white !important;
+    font-size: 1.3rem;
+    color: #c1a037;
+    border-color: #700001;
+    }
+  }
 }
 
 
 
 
 /*********************************************
--------   CONTACT WIDGET LINKS   ------- 
+-------   CONTACT WIDGET LINKS AND MAP   ------- 
 *********************************************/
 
-#contact {
-  .leaflet-touch .leaflet-bar, .leaflet-touch .leaflet-control-layers,     .leaflet-touch .leaflet-control-attribution {
-    a { color: #700001;
-        background: white;
-      }
-    }
+.wg-contact .fa-ul {
+  margin-left: 6.14285714rem; /* Must be > `fa-2x` icon size. */
+}
+
+.wg-contact .fa-li {
+  position: absolute;
+  left: -3.14285714rem; /* Negative of `.wg-contact .fa-ul` margin. */
+  width: 2rem; /* Match `fa-2x` icon size. */
+  top: 0.14285714em; /* Default FA value. */
+  text-align: center;
 }
 
 .wg-contact.dark {
@@ -227,92 +374,20 @@ footer p {
   }
 } 
 
-
-/*************************************************
- *  Hero Widget
- **************************************************/
-
-.wg-hero {
-  padding: 3em 0;
-  clear: both;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  animation: intro 0.3s both;
-  animation-delay: 0s;
-  animation-delay: 0.25s;
+#map {
+  height: 300px;
+  width: 160%;
+  left: 0rem;
+  top: 2em; 
 }
 
-.hero-title {
-  font-size: 1.5rem;
-  margin-top: 2;
-  line-height: 1;
+#contact {
+  .leaflet-touch .leaflet-bar, .leaflet-touch .leaflet-control-layers,     .leaflet-touch .leaflet-control-attribution {
+    a { color: #700001;
+        background: white;
+      }
+    }
 }
-
-.hero-lead {
-  max-width: 768px;
-  font-size: 1rem;
-}
-
-.wg-hero.dark .hero-title,
-.wg-hero.dark .hero-lead,
-.wg-hero.dark .hero-cta-alt,
-.wg-hero.dark .hero-note > * {
-  color: #fff;
-  text-shadow: 1px 1px 4px rgba(0,0,0,0.5); /* Uncomment to standout on complicated backgrounds. */
-}
-
-.wg-hero.dark a:not(.wg-hero .btn) {
-  color: #fff;
-}
-
-.wg-hero .hero-lead a {
-  text-decoration: underline;
-}
-
-.wg-hero .cta-btns {
-  margin-bottom: 16px;
-}
-
-.wg-hero .btn {
-  padding: .6em 2.1em;
-}
-
-.wg-hero.dark .btn {
-  color: #167b1a;
-}
-
-a.hero-cta-alt {
-  display: inline-block;
-  position: relative;
-  transition-duration: .2s;
-  transition-property: transform;
-  transition-timing-function: ease-out;
-  font-size: 1.1rem;
-}
-
-a.hero-cta-alt:active,
-a.hero-cta-alt:focus,
-a.hero-cta-alt:hover {
-  transform: scale(1.1);
-}
-
-.wg-hero .btn-lg {
-  font-size: 1.1rem;
-}
-
-.wg-hero .hero-note {
-  font-size: 0.8rem;
-}
-
-.hero-media {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 70%;
-  text-align: center;
-}
-
 
 
 
@@ -320,18 +395,7 @@ a.hero-cta-alt:hover {
  *  Button size override
  *************************************************/
 
-.btn {
-  padding: .5rem;
-  font-size: 1.5rem;
-  line-height: .5;
-  border-radius: .3rem;
-}
-
-.btn-links .btn {
-  padding: 5px .5rem 5px .5rem;
-  line-height: 1;
-}
-
+/* Small buttons - as in publication button links) */
 .btn.btn-sm {
   padding: 5px .4rem 5px .4rem;
   font-size: .7rem;
@@ -375,15 +439,15 @@ a.hero-cta-alt:hover {
 }
 
 
-/******************
-* Dark mode buttons
-************************/
-
-
-.dark .btn-primary,
-.dark .btn.btn-primary.active {
-  color: #000000;
+/* Card colour background (e.g. Employment/Education sections) */
+.dark .card {
+  background: #3f090960;
 }
+
+.card {
+  background: #ffffff99;
+}
+
 
 /* Size of pictures */
 
@@ -449,87 +513,6 @@ div.alert > div:first-child::before {
   border-color: #ff3860;
 }
 
-
-/*******************************
-* Other stuff
-*******************************/
-
-
-/******************************
-* From Connor Rothschild
-*******************************/
-
-$dark-grey: #505050;
-$light-grey: #efefef;
-
-
-
-
-
-/* buttons */
-
-.btn {
-  border-radius: 5px;
-  margin: 2.5px;
-  padding: .3rem;
-  line-height: 1;
-  -webkit-box-shadow: 3px 3px 0 0 $dark-grey;
-          box-shadow: 3px 3px 0 0 $dark-grey;
-  color: $dark-grey;
-  border-color: #700001;
-  background-color: white !important;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; 
-  
-    &:focus {
-    -webkit-box-shadow: 3px 3px 0 0 white !important;
-            box-shadow: 3px 3px 0 0 white !important;
-    color: $sta-primary-dark;
-    }
-  
-  &:hover {
-    background-color: $light-grey !important;
-    color: #700001;
-    border-color: #700001;
-    }
-}
-
-
-
-.btn-toolbar .btn.active  {
-  background-color: $sta-primary-dark !important;
-  -webkit-box-shadow: 3px 3px 0 0 white !important;
-          box-shadow: 3px 3px 0 0 white !important;
-}
-
-.btn-links .btn {
-  padding: .3rem;
-}
-
-.btn-links .btn:hover {
-  padding: .3rem;
-  color: #700001;
-  border-color: #700001;
-  background-color: $light-grey !important;
-}
-
-
-/* link styling */
-
-.card-text p a, .powered-by a {
-  text-decoration: none;
-  padding: 2px;
-  border-radius: 7px;
-  background: $light-grey;
-}
-
-.card-text p a:hover, .powered-by a:hover { 
-   background: rgba(112, 0, 1, 0.6);
-   color: $light-grey;
-}
-
-
 /* Underline links in dark sections to separate them from text */
 
 /*
@@ -541,8 +524,6 @@ $light-grey: #efefef;
   background: $dark-grey;
   }
 */  
-
-
 
 
 .wg-about.dark {
@@ -576,56 +557,6 @@ $light-grey: #efefef;
 
 
 
-
-
-
-
-/* custom css for Accomplishments */
-
-#accomplishments {
-  .margin-top {
-    margin-top: 20px;
-  }
-  .vertical-center {
-    justify-content: center;
-  }
-  .card-title {
-    font-size: 1.4rem;
-  }
-  .card-subtitle {
-    font-size: 1.2rem;
-  }
-  .card {
-
-    .init-hidden {
-        p {
-          max-height: 0;
-          transition: max-height 1s ease-out;
-          overflow: hidden;
-          margin-bottom: 0 !important;
-        }
-        
-        &.card-text {
-          padding: 0 !important;
-        }
-      }
-    
-    &:hover {
-    .init-hidden p {
-      max-height: 1000px;
-      transition: max-height 1s ease-in;
-    }
-  }
-}
-}
-
-
-
-/* awards and experience cards */
-
-
-
-
 /* add images to experience cards */
 
 .flex-w-experience-image-container {
@@ -644,7 +575,7 @@ $light-grey: #efefef;
 
 
 
-#experience, #education {
+#experience, #education, #accomplishments {
     .margin-top {
       margin-top: 20px;
     }
@@ -666,10 +597,17 @@ $light-grey: #efefef;
       .init-hidden {
           p {
             max-height: 0;
-            transition: max-height 2s ease-out;
+            transition: max-height 1s ease-out;
             overflow: hidden;
             margin-bottom: 0 !important;
-          }
+            }
+          p a {
+            text-decoration: none;
+            color: $light-grey;
+            padding: 1.5px;
+            border-radius: 7px;
+            background: rgba(255, 255, 255, 0.2);
+            }
           
           &.card-text {
             padding: 0 !important;
@@ -688,35 +626,21 @@ $light-grey: #efefef;
         padding: 1.5px;
         border-radius: 7px;
         background: rgba(255, 255, 255, 0.2);
-        }  
+        }
+        p a:hover {
+        text-decoration: underline;
+        color: #c1a037;
+        padding: 1.5px;
+        border-radius: 7px;
+        background: rgba(255, 255, 255, 0.2);
+        }
       }
       }
     }
 }
 
 
-/* Styling of hyperlink in texts */
-
-p a {
-  text-decoration: none;
-  color: #700001;
-  padding: 3px;
-  border-radius: 3px;
-  background: $light-grey;
-}
-
-p a:hover { 
-   text-decoration: underline;
-   color: #c1a037;
-   padding: none;
-   border-radius: none;
-   background: none;
-   font-weight: none;
-    }
-
-
-/* TITLE headings */
-
+/*
 #posts, #experience, #accomplishments, #projects, #education {
   h1 {
     padding-left: 3rem;
@@ -727,10 +651,31 @@ p a:hover {
 
  .dark h1 {
     padding-left: 3rem;
-    font-size: 3rem;
+    font-size: 1rem;
     color: white !important;
     font-weight: bold;
   }
 }
+*/
 
+
+.experience .m-2 .border,
+.experience .col.border-right {
+  border-color: $sta-primary !important;
+}
+
+.experience .m-2 .border.exp-fill {
+  background-color: $sta-primary !important;
+}
+
+.dark {
+.experience .m-2 .border,
+.experience .col.border-right {
+  border-color: white !important;
+}
+
+.experience .m-2 .border.exp-fill {
+  background-color: white !important;
+}
+}
 

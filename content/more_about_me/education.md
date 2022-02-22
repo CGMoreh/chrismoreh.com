@@ -9,7 +9,7 @@ widget: experience
 headless: true
 
 # Order that this section appears on the page.
-weight: 50
+weight: 40
 
 title: Education
 subtitle:
@@ -61,11 +61,11 @@ experience:
 design:
   background:
     image: garden_math.jpg
-    image_darken: 0.35
+    image_darken: 5.35
     image_parallax: true
     image_position: center
     image_size: cover
-    text_color_light: true
+    text_color_light: false
   spacing:
     padding: ["20px", "5px", "5px", "60px"]
 ---
