@@ -23,10 +23,10 @@ authors:
   - Derek McGhee
   - Athina Vlachantoni
 
-publication: "*Journal of Ethnic and Migration Studies*, Ahead of print, pp. 1-20"
-publication_short: "*Journal of Ethnic and Migration Studies*, Ahead-of-print: 1-20"
+publication: "*Journal of Ethnic and Migration Studies*, 48(9): 1998-2017"
+publication_short: "*Journal of Ethnic and Migration Studies*, 48(9): 1998-2017"
 
-date: 2021-06-21
+date: 2022-06-21
 show_date: false
 
 summary: ""
