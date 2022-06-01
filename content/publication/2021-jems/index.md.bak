@@ -18,10 +18,10 @@ draft: false
 featured: false
 
 authors:
-  - Giuseppe Troccoli
-  - admin
-  - Derek McGhee
-  - Athina Vlachantoni
+ - Giuseppe Troccoli
+ - admin
+ - Derek McGhee
+ - Athina Vlachantoni
 
 publication: "*Journal of Ethnic and Migration Studies*, 48(9): 1998-2017"
 publication_short: "*Journal of Ethnic and Migration Studies*, 48(9): 1998-2017"
