@@ -18,9 +18,9 @@ draft: false # Change this!
 featured: false
 
 authors:
-	- admin
-	- Derek McGhee
-	- Athina Vlachantoni
+- admin
+- Derek McGhee
+- Athina Vlachantoni
 
 publication: "*Sociological Research Online*, Online First, pp. 1-20"
 publication_short: "*Sociological Research Online*, Online First, pp. 1-20"

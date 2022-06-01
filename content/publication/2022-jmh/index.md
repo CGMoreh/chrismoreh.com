@@ -18,10 +18,10 @@ draft: false
 featured: false
 
 authors:
-  - Giuseppe Troccoli
-  - admin
-  - Derek McGhee
-  - Athina Vlachantoni
+ - Giuseppe Troccoli
+ - admin
+ - Derek McGhee
+ - Athina Vlachantoni
 
 publication: "*Journal of Migration and Health*, 5(100100)"
 publication_short: "*Journal of Migration and Health*, 5(100100)"
