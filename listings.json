@@ -1,0 +1,59 @@
+[
+  {
+    "listing": "/teaching/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/index.html",
+    "items": [
+      "/publications/monographs/forthcoming-palgrave/index.html",
+      "/publications/monographs/2014-lharmattan/index.html",
+      "/publications/edited-books/forthcoming-ee/index.html",
+      "/publications/articles/2023-sro/index.html",
+      "/publications/articles/2022-jmh/index.html",
+      "/publications/articles/2022-jems/index.html",
+      "/publications/articles/2022-bmchsr/index.html",
+      "/publications/articles/2020-L&E/index.html",
+      "/publications/articles/2020-imr/index.html",
+      "/publications/articles/2019-sage/index.html",
+      "/publications/articles/2019-bjs/index.html",
+      "/publications/articles/2017-usz/index.html",
+      "/publications/articles/2017-jems/index.html",
+      "/publications/articles/2016-olh/index.html",
+      "/publications/articles/2016-ijcs/index.html",
+      "/publications/articles/2014-dem/index.html",
+      "/publications/articles/2014-ceemr/index.html",
+      "/publications/articles/2014-jems/index.html",
+      "/publications/chapters/4-ch-2021-phsh/index.html",
+      "/publications/chapters/3-ch-2019-ceup/index.html",
+      "/publications/chapters/2-ch-2016-hlmhu/index.html",
+      "/publications/chapters/1-ch-2016-hlm/index.html",
+      "/publications/working-papers/2023-sro/index.html",
+      "/publications/reviews/heiss-death-idealism/index.html",
+      "/publications/reviews/heiss-voluntas-review-2014/index.html",
+      "/publications/briefs/heiss-rogerson-sources/index.html",
+      "/publications/briefs/heiss-rogerson-discourse/index.html"
+    ]
+  },
+  {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/functional-programming-r-basics/index.html",
+      "/projects/transmighealth/index.html",
+      "/projects/agile-methods-for-academia/index.html",
+      "/projects/ggsimplex-prerelease/index.html",
+      "/projects/hello-world/index.html"
+    ]
+  },
+  {
+    "listing": "/posts/index.html",
+    "items": [
+      "/posts/2024/alexandria-train-crash/index.html",
+      "/posts/2023/queen-rania-at-auc/index.html"
+    ]
+  },
+  {
+    "listing": "/talks/index.html",
+    "items": []
+  }
+]
